@@ -1,0 +1,36 @@
+{
+  "name": "duty-pharmacies-api",
+  "version": "1.0.0",
+  "description": "a api for finding duty pharmacies",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atilagulers/duty-pharmacies-api.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node.js",
+    "Express",
+    "REST",
+    "API",
+    "Mongo"
+  ],
+  "author": "atila guler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atilagulers/duty-pharmacies-api/issues"
+  },
+  "homepage": "https://github.com/atilagulers/duty-pharmacies-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
