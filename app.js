@@ -1,42 +1,30 @@
 require('dotenv').config();
 
+const dutyPharmaciesRouter = require('./routes/dutyPharmacies');
+const citiesRouter = require('./routes/cities');
+const countiesRouter = require('./routes/counties');
 // express
 const express = require('express');
+var cors = require('cors');
 const app = express();
 
 // database
 const connectDB = require('./db/connect');
 
+// middlewares
 app.use(express.json());
+app.use(cors());
 
-app.get('/api/nobetci-eczaneler', async (req, res) => {
-  const {city, county} = req.query;
-  console.log(city, county);
-  const authKey = process.env.API_AUTH_KEY;
-  const apiUrl = `https://www.nosyapi.com/apiv2/pharmacy?city=${city}&county=${
-    county || ''
-  }`;
-  console.log(apiUrl);
-  try {
-    const response = await fetch(apiUrl, {
-      headers: {
-        'content-type': 'application/json',
-        authorization: `Bearer ${process.env.API_AUTH_KEY}`,
-      },
-    });
-    const data = await response.json();
+// routes
 
-    res.json(data);
-  } catch (err) {
-    console.log(err);
-    res.sendStatus(500);
-  }
-});
+app.use('/api/v1/duty-pharmacies', dutyPharmaciesRouter);
+app.use('/api/v1/cities', citiesRouter);
+app.use('/api/v1/counties', countiesRouter);
 
 const port = process.env.PORT || 3001;
 const start = async () => {
   try {
-    await connectDB(process.env.MONGO_URL);
+    // await connectDB(process.env.MONGO_URL);
     app.listen(port, () =>
       console.log(`Server is listening on port ${port}...`)
     );
