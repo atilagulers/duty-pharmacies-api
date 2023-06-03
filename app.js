@@ -21,7 +21,7 @@ app.use('/api/v1/duty-pharmacies', dutyPharmaciesRouter);
 app.use('/api/v1/cities', citiesRouter);
 app.use('/api/v1/counties', countiesRouter);
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 const start = async () => {
   try {
     // await connectDB(process.env.MONGO_URL);
