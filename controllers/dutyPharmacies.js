@@ -31,7 +31,7 @@ const getNearestPharmacy = async (req, res) => {
     //const closestPharmacyLat = closestPharmacy.geometry.location.lat;
     //const closestPharmacyLng = closestPharmacy.geometry.location.lng;
 
-    res.json({data: data.results[0]});
+    res.json(data);
   } catch (error) {
     console.error(error);
     res
