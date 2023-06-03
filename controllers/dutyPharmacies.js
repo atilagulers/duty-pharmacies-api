@@ -22,7 +22,6 @@ const getNearestPharmacy = async (req, res) => {
   const {lat, lng, radius, pharmacyName} = req.query;
   const apiKey = process.env.API_GOOGLE_PLACES;
 
-  if (!pharmacyName) pharmacyName = '';
   if (!radius) radius = 1000;
 
   try {
@@ -37,7 +36,7 @@ const getNearestPharmacy = async (req, res) => {
       const normalizedPharmacyName = pharmacyName
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '');
-
+      console.log(normalizedPharmacyName, closestPharmacy);
       closestPharmacy = data.results.find((pharmacy) =>
         pharmacy.name
           .split('')[0]
