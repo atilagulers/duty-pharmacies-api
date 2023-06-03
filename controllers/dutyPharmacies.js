@@ -34,11 +34,12 @@ const getNearestPharmacy = async (req, res) => {
 
     if (data.results.length > 0) {
       // Sonuçları filtrele
-      data.results.forEach((res) =>
-        console.log(res.name.toLowerCase(), pharmacyName.toLowerCase())
-      );
+
       closestPharmacy = data.results.find((pharmacy) =>
-        pharmacy.name.toLowerCase().includes(pharmacyName.toLowerCase())
+        pharmacy.name
+          .split('')[0]
+          .toLowerCase()
+          .includes(pharmacyName.split('')[0].toLowerCase())
       );
     }
 
