@@ -33,7 +33,9 @@ const getNearestPharmacy = async (req, res) => {
     res.json({data: data.results[0]});
   } catch (error) {
     console.error(error);
-    res.status(500).json({error: 'API isteği sırasında bir hata oluştu'});
+    res
+      .status(500)
+      .json({error: `API isteği sırasında bir hata oluştu. ${error}`});
   }
 };
 
