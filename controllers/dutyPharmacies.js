@@ -28,7 +28,7 @@ const getNearestPharmacy = async (req, res) => {
     const response = await fetch(url);
     const data = await response.json();
     let closestPharmacy = null;
-    console.log(data);
+    console.log(url);
     if (data.results.length > 0) {
       // Sonuçları filtrele
       const normalizedPharmacyName = pharmacyName
