@@ -19,18 +19,19 @@ const getAllDutyPharmacies = async (req, res) => {
 };
 
 const getNearestPharmacy = async (req, res) => {
-  const {lat, lng, radius} = req.query;
+  const {lat, lng, radius, pharmacyName} = req.query;
   const apiKey = process.env.API_GOOGLE_PLACES;
+
+  if (!pharmacyName) pharmacyName = '';
   if (!radius) radius = 1000;
+
   try {
-    const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=${radius}&type=pharmacy&key=${apiKey}`;
+    const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=${radius}&type=pharmacy&keyword=${pharmacyName}&key=${apiKey}`;
     const response = await fetch(url);
+    console.log(url);
     const data = await response.json();
     const closestPharmacy = data.results[0];
-    //console.log(closestPharmacy.geometry.location.lat);
-    //const closestPharmacyLat = closestPharmacy.geometry.location.lat;
-    //const closestPharmacyLng = closestPharmacy.geometry.location.lng;
-    console.log(closestPharmacy);
+
     res.json(closestPharmacy);
   } catch (error) {
     console.error(error);
