@@ -38,7 +38,6 @@ const getNearestPharmacy = async (req, res) => {
       console.log(data);
       closestPharmacy = data.results.find((pharmacy) =>
         pharmacy.name
-          .split('')[0]
           .toLowerCase()
           .includes(normalizedPharmacyName.split('')[0].toLowerCase())
       );
