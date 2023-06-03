@@ -28,17 +28,13 @@ const getNearestPharmacy = async (req, res) => {
     const response = await fetch(url);
     const data = await response.json();
     let closestPharmacy = null;
-    console.log(url);
+
     if (data.results.length > 0) {
       // Sonuçları filtrele
       const normalizedPharmacyName = pharmacyName
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '');
-      console.log(
-        data.results.forEach((phar) => {
-          return phar.name.split('')[0].toLowerCase();
-        })
-      );
+
       closestPharmacy = data.results.find((pharmacy) =>
         pharmacy.name
           .split('')[0]
@@ -46,7 +42,6 @@ const getNearestPharmacy = async (req, res) => {
           .includes(normalizedPharmacyName.split('')[0].toLowerCase())
       );
     }
-    console.log(normalizedPharmacyName, closestPharmacy);
 
     res.json(closestPharmacy);
   } catch (error) {
