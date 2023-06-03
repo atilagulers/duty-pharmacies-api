@@ -26,21 +26,11 @@ const getNearestPharmacy = async (req, res) => {
   if (!radius) radius = 1000;
 
   try {
-    const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=${radius}&type=pharmacy&keyword=${pharmacyName}&key=${apiKey}`;
+    const encodedPharmacyName = encodeURIComponent(pharmacyName);
+    const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=${radius}&type=pharmacy&name=${encodedPharmacyName}&key=${apiKey}`;
     const response = await fetch(url);
     const data = await response.json();
-    let closestPharmacy = null;
-
-    if (data.results.length > 0) {
-      // Sonuçları mesafeye göre sırala
-      data.results.sort((a, b) => {
-        const distanceA = a.geometry.location.lat - parseFloat(lat);
-        const distanceB = b.geometry.location.lat - parseFloat(lat);
-        return Math.abs(distanceA) - Math.abs(distanceB);
-      });
-
-      closestPharmacy = data.results[0];
-    }
+    const closestPharmacy = data.results[0];
 
     res.json(closestPharmacy);
   } catch (error) {
