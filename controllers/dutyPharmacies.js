@@ -24,6 +24,7 @@ const getNearestPharmacy = async (req, res) => {
   if (!radius) radius = 1000;
   try {
     const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=${radius}&type=pharmacy&key=${apiKey}`;
+    console.log(url);
     const response = await fetch(url);
     const data = await response.json();
     const closestPharmacy = data.results[0];
