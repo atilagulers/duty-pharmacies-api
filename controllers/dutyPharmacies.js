@@ -35,7 +35,7 @@ const getNearestPharmacy = async (req, res) => {
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '')
         .toLowerCase();
-
+      console.log(normalizedPharmacyName);
       closestPharmacy = data.results.find((pharmacy) =>
         pharmacy.name.toLowerCase().includes(normalizedPharmacyName)
       );
