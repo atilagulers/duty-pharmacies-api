@@ -24,7 +24,7 @@ const getNearestPharmacy = async (req, res) => {
 
   try {
     const encodedPharmacyName = encodeURIComponent(pharmacyName);
-    const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=${radius}&type=pharmacy&key=${apiKey}`;
+    const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=${radius}&key=${apiKey}`;
     const response = await fetch(url);
     const data = await response.json();
     let closestPharmacy = null;
