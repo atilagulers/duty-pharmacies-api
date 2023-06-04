@@ -33,7 +33,7 @@ const getNearestPharmacy = async (req, res) => {
 
     if (data.results.length > 0) {
       closestPharmacy = data.results[0];
-      console.log('CLOSEST: ' + closestPharmacy);
+      console.log(closestPharmacy);
     }
 
     res.json(closestPharmacy);
