@@ -24,22 +24,20 @@ const getNearestPharmacy = async (req, res) => {
 
   try {
     const encodedPharmacyName = encodeURIComponent(pharmacyName);
-    const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=${radius}&type=pharmacy&key=${apiKey}`;
+    const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=${radius}&type=pharmacy|drugstore&key=${apiKey}`;
     const response = await fetch(url);
     const data = await response.json();
     let closestPharmacy = null;
-    console.log(data);
+
     if (data.results.length > 0) {
-      // Sonuçları filtrele
+      // Filter the results
       const normalizedPharmacyName = pharmacyName
         .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '');
-      console.log(normalizedPharmacyName);
-      console.log(data);
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase();
+
       closestPharmacy = data.results.find((pharmacy) =>
-        pharmacy.name
-          .toLowerCase()
-          .includes(normalizedPharmacyName.split('')[0].toLowerCase())
+        pharmacy.name.toLowerCase().includes(normalizedPharmacyName)
       );
     }
 
@@ -48,7 +46,7 @@ const getNearestPharmacy = async (req, res) => {
     console.error(error);
     res
       .status(500)
-      .json({error: `API isteği sırasında bir hata oluştu. ${error}`});
+      .json({error: `An error occurred during the API request. ${error}`});
   }
 };
 
