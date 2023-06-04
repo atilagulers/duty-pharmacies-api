@@ -24,8 +24,7 @@ const getNearestPharmacy = async (req, res) => {
   const apiKey = process.env.API_GOOGLE_PLACES;
   try {
     const encodedPharmacyName = encodeURIComponent(pharmacyName);
-    console.log(lat, lng);
-    console.log('ENCODED: ' + encodedPharmacyName);
+
     const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodedPharmacyName}&location=${lat},${lng}&radius=${radius}&type=pharmacy&key=${apiKey}`;
     const response = await fetch(url);
     const data = await response.json();
@@ -35,7 +34,6 @@ const getNearestPharmacy = async (req, res) => {
       closestPharmacy = data.results[0];
       console.log(closestPharmacy);
     }
-    console.log(closestPharmacy.geometry.location);
     res.json(closestPharmacy);
   } catch (error) {
     console.error(error);
