@@ -1,4 +1,4 @@
-const getAllDutyPharmacies = async (req, res) => {
+const getAllPharmacies = async (req, res) => {
   const {city, county} = req.query;
 
   const apiUrl = `${process.env.API_URL}?city=${city}&county=${county || ''}`;
@@ -10,8 +10,6 @@ const getAllDutyPharmacies = async (req, res) => {
       },
     });
     const data = await response.json();
-    console.log('========================DUTY======================');
-    console.log(data);
     res.json(data);
   } catch (err) {
     console.log(err);
@@ -30,9 +28,9 @@ const getNearestPharmacy = async (req, res) => {
     const data = await response.json();
     let closestPharmacy = null;
 
+    console.log(data.results.length);
     if (data.results.length > 0) {
       closestPharmacy = data.results[0];
-      console.log(closestPharmacy);
     }
     res.json(closestPharmacy);
   } catch (error) {
@@ -44,6 +42,6 @@ const getNearestPharmacy = async (req, res) => {
 };
 
 module.exports = {
-  getAllDutyPharmacies,
+  getAllPharmacies,
   getNearestPharmacy,
 };
