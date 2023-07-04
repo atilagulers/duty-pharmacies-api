@@ -27,8 +27,7 @@ const getNearestPharmacy = async (req, res) => {
     const response = await fetch(url);
     const data = await response.json();
     let closestPharmacy = null;
-
-    console.log(data.results.length);
+    console.log(url);
     if (data.results.length > 0) {
       closestPharmacy = data.results[0];
     }
