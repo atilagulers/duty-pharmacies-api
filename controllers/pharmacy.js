@@ -1,5 +1,9 @@
+const calculateDistance = require('../helpers/calculateDistance');
+
 const getAllPharmacies = async (req, res) => {
-  const {city, county} = req.query;
+  const {city, county, lat, lng} = req.query;
+
+  const userLocation = {lat, lng};
 
   const apiUrl = `${process.env.API_URL}?city=${city}&county=${county || ''}`;
   try {
@@ -10,7 +14,29 @@ const getAllPharmacies = async (req, res) => {
       },
     });
     const data = await response.json();
-    res.json(data);
+    const pharmacies = data.data;
+    const sortedPharmacies = [...pharmacies].sort((a, b) => {
+      const distanceA = calculateDistance(
+        userLocation.lat,
+        userLocation.lng,
+        a.latitude,
+        a.longitude
+      );
+      const distanceB = calculateDistance(
+        userLocation.lat,
+        userLocation.lng,
+        b.latitude,
+        b.longitude
+      );
+      // Sort based on distance
+      return distanceA - distanceB;
+    });
+    console.log(lat, lng);
+    if (lat && lng)
+      res.json({
+        data: sortedPharmacies,
+      });
+    else res.json(data);
   } catch (err) {
     console.log(err);
     res.sendStatus(500);
@@ -22,12 +48,12 @@ const getNearestPharmacy = async (req, res) => {
   const apiKey = process.env.API_GOOGLE_PLACES;
   try {
     const encodedPharmacyName = encodeURIComponent(pharmacyName);
-
+    console.log(encodedPharmacyName);
     const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodedPharmacyName}&location=${lat},${lng}&radius=${radius}&type=pharmacy&key=${apiKey}`;
     const response = await fetch(url);
     const data = await response.json();
     let closestPharmacy = null;
-    console.log(url);
+
     if (data.results.length > 0) {
       closestPharmacy = data.results[0];
     }
