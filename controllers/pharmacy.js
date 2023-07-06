@@ -31,7 +31,7 @@ const getAllPharmacies = async (req, res) => {
       // Sort based on distance
       return distanceA - distanceB;
     });
-    console.log(lat, lng);
+
     if (lat && lng)
       res.json({
         data: sortedPharmacies,
