@@ -21,7 +21,7 @@ export const updatePharmacies = async () => {
       directions: pharmacy.YolTarifi,
       phone: pharmacy.Telefon,
       phone2: pharmacy.Telefon2,
-      city: pharmacy.Sehir,
+      city: pharmacy.Sehir.replace('i̇', 'i'),
       county: pharmacy.ilce.replace('i̇', 'i'),
       latitude: pharmacy.latitude,
       longitude: pharmacy.longitude,
