@@ -1,7 +1,6 @@
 import httpStatus from 'http-status';
 import Pharmacy from '../models/Pharmacy.js';
 import {createRequire} from 'module';
-import {count} from 'console';
 const require = createRequire(import.meta.url);
 const data = require('../data/data.json');
 

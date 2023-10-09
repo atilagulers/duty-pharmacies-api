@@ -21,21 +21,18 @@ app.use(cors());
 // routers
 import pharmaciesRouter from './routes/pharmacies.js';
 
-
-
 // routes
 app.use('/api/v1/pharmacies', pharmaciesRouter);
 
-app.get('/api/v1/update', async (req, res) => {
+app.post('/api/v1/update', async (req, res) => {
   try {
-    await updatePharmacies();
-    res.send('pharmacies updated');
+    const pharmacies = await updatePharmacies();
+    res.status(200).json({msg: 'pharmacies updated', pharmacies});
   } catch (error) {
     console.error(error);
     res.status(500).send('An error occurred while updating pharmacies');
   }
-})
-
+});
 
 app.get('/api/v1', (req, res) => {
   res.send('Welcome !');
