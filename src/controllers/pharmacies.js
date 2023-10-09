@@ -18,7 +18,6 @@ export const getAllPharmacies = async (req, res, next) => {
       county = cityData.counties.find(
         (c) => c.countySlug === county.replace('i̇', 'i')
       ).countyName;
-      console.log(county);
     }
 
     const pharmacies = await Pharmacy.find({
