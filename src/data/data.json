@@ -1,0 +1,4430 @@
+[
+  {
+    "cityName": "İstanbul",
+    "citySlug": "istanbul",
+    "counties": [
+      {
+        "countyName": "Adalar",
+        "countySlug": "adalar"
+      },
+      {
+        "countyName": "Arnavutköy",
+        "countySlug": "arnavutkoy"
+      },
+      {
+        "countyName": "Ataşehir",
+        "countySlug": "atasehir"
+      },
+      {
+        "countyName": "Avcılar",
+        "countySlug": "avcilar"
+      },
+      {
+        "countyName": "Bağcılar",
+        "countySlug": "bagcilar"
+      },
+      {
+        "countyName": "Bahçelievler",
+        "countySlug": "bahcelievler"
+      },
+      {
+        "countyName": "Bakırköy",
+        "countySlug": "bakirkoy"
+      },
+      {
+        "countyName": "Başakşehir",
+        "countySlug": "basaksehir"
+      },
+      {
+        "countyName": "Bayrampaşa",
+        "countySlug": "bayrampasa"
+      },
+      {
+        "countyName": "Beşiktaş",
+        "countySlug": "besiktas"
+      },
+      {
+        "countyName": "Beykoz",
+        "countySlug": "beykoz"
+      },
+      {
+        "countyName": "Beylikdüzü",
+        "countySlug": "beylikduzu"
+      },
+      {
+        "countyName": "Beyoğlu",
+        "countySlug": "beyoglu"
+      },
+      {
+        "countyName": "Büyükçekmece",
+        "countySlug": "buyukcekmece"
+      },
+      {
+        "countyName": "Çatalca",
+        "countySlug": "catalca"
+      },
+      {
+        "countyName": "Çekmeköy",
+        "countySlug": "cekmekoy"
+      },
+      {
+        "countyName": "Esenler",
+        "countySlug": "esenler"
+      },
+      {
+        "countyName": "Esenyurt",
+        "countySlug": "esenyurt"
+      },
+      {
+        "countyName": "Eyüp",
+        "countySlug": "eyup"
+      },
+      {
+        "countyName": "Fatih",
+        "countySlug": "fatih"
+      },
+      {
+        "countyName": "Gaziosmanpaşa",
+        "countySlug": "gaziosmanpasa"
+      },
+      {
+        "countyName": "Güngören",
+        "countySlug": "gungoren"
+      },
+      {
+        "countyName": "Kadıköy",
+        "countySlug": "kadikoy"
+      },
+      {
+        "countyName": "Kağıthane",
+        "countySlug": "kagithane"
+      },
+      {
+        "countyName": "Kartal",
+        "countySlug": "kartal"
+      },
+      {
+        "countyName": "Küçükçekmece",
+        "countySlug": "kucukcekmece"
+      },
+      {
+        "countyName": "Maltepe",
+        "countySlug": "maltepe"
+      },
+      {
+        "countyName": "Pendik",
+        "countySlug": "pendik"
+      },
+      {
+        "countyName": "Sancaktepe",
+        "countySlug": "sancaktepe"
+      },
+      {
+        "countyName": "Sarıyer",
+        "countySlug": "sariyer"
+      },
+      {
+        "countyName": "Silivri",
+        "countySlug": "silivri"
+      },
+      {
+        "countyName": "Sultanbeyli",
+        "countySlug": "sultanbeyli"
+      },
+      {
+        "countyName": "Sultangazi",
+        "countySlug": "sultangazi"
+      },
+      {
+        "countyName": "Şile",
+        "countySlug": "sile"
+      },
+      {
+        "countyName": "Şişli",
+        "countySlug": "sisli"
+      },
+      {
+        "countyName": "Tuzla",
+        "countySlug": "tuzla"
+      },
+      {
+        "countyName": "Ümraniye",
+        "countySlug": "umraniye"
+      },
+      {
+        "countyName": "Üsküdar",
+        "countySlug": "uskudar"
+      },
+      {
+        "countyName": "Zeytinburnu",
+        "countySlug": "zeytinburnu"
+      }
+    ]
+  },
+  {
+    "cityName": "Ankara",
+    "citySlug": "ankara",
+    "counties": [
+      {
+        "countyName": "Akyurt",
+        "countySlug": "akyurt"
+      },
+      {
+        "countyName": "Altındağ",
+        "countySlug": "altindag"
+      },
+      {
+        "countyName": "Ayaş",
+        "countySlug": "ayas"
+      },
+      {
+        "countyName": "Bala",
+        "countySlug": "bala"
+      },
+      {
+        "countyName": "Beypazarı",
+        "countySlug": "beypazari"
+      },
+      {
+        "countyName": "Çamlıdere",
+        "countySlug": "camlidere"
+      },
+      {
+        "countyName": "Çankaya",
+        "countySlug": "cankaya"
+      },
+      {
+        "countyName": "Çubuk",
+        "countySlug": "cubuk"
+      },
+      {
+        "countyName": "Elmadağ",
+        "countySlug": "elmadag"
+      },
+      {
+        "countyName": "Etimesgut",
+        "countySlug": "etimesgut"
+      },
+      {
+        "countyName": "Evren",
+        "countySlug": "evren"
+      },
+      {
+        "countyName": "Gölbaşı",
+        "countySlug": "golbasi"
+      },
+      {
+        "countyName": "Güdül",
+        "countySlug": "gudul"
+      },
+      {
+        "countyName": "Haymana",
+        "countySlug": "haymana"
+      },
+      {
+        "countyName": "Kahramankazan",
+        "countySlug": "Kahramankazan"
+      },
+      {
+        "countyName": "Kalecik",
+        "countySlug": "kalecik"
+      },
+      {
+        "countyName": "Keçiören",
+        "countySlug": "kecioren"
+      },
+      {
+        "countyName": "Kızılcahamam",
+        "countySlug": "kizilcahamam"
+      },
+      {
+        "countyName": "Mamak",
+        "countySlug": "mamak"
+      },
+      {
+        "countyName": "Nallıhan",
+        "countySlug": "nallihan"
+      },
+      {
+        "countyName": "Polatlı",
+        "countySlug": "polatli"
+      },
+      {
+        "countyName": "Pursaklar",
+        "countySlug": "pursaklar"
+      },
+      {
+        "countyName": "Sincan",
+        "countySlug": "sincan"
+      },
+      {
+        "countyName": "Şereflikoçhisar",
+        "countySlug": "sereflikochisar"
+      },
+      {
+        "countyName": "Yenimahalle",
+        "countySlug": "yenimahalle"
+      }
+    ]
+  },
+  {
+    "cityName": "İzmir",
+    "citySlug": "izmir",
+    "counties": [
+      {
+        "countyName": "Aliağa",
+        "countySlug": "aliaga"
+      },
+      {
+        "countyName": "Balçova",
+        "countySlug": "balcova"
+      },
+      {
+        "countyName": "Bayındır",
+        "countySlug": "bayindir"
+      },
+      {
+        "countyName": "Bayraklı",
+        "countySlug": "bayrakli"
+      },
+      {
+        "countyName": "Bergama",
+        "countySlug": "bergama"
+      },
+      {
+        "countyName": "Beydağ",
+        "countySlug": "beydag"
+      },
+      {
+        "countyName": "Bornova",
+        "countySlug": "bornova"
+      },
+      {
+        "countyName": "Buca",
+        "countySlug": "buca"
+      },
+      {
+        "countyName": "Çeşme",
+        "countySlug": "cesme"
+      },
+      {
+        "countyName": "Çiğli",
+        "countySlug": "cigli"
+      },
+      {
+        "countyName": "Dikili",
+        "countySlug": "dikili"
+      },
+      {
+        "countyName": "Foça",
+        "countySlug": "foca"
+      },
+      {
+        "countyName": "Gaziemir",
+        "countySlug": "gaziemir"
+      },
+      {
+        "countyName": "Güzelbahçe",
+        "countySlug": "guzelbahce"
+      },
+      {
+        "countyName": "Karabağlar",
+        "countySlug": "karabaglar"
+      },
+      {
+        "countyName": "Karaburun",
+        "countySlug": "karaburun"
+      },
+      {
+        "countyName": "Karşıyaka",
+        "countySlug": "karsiyaka"
+      },
+      {
+        "countyName": "Kemalpaşa",
+        "countySlug": "kemalpasa"
+      },
+      {
+        "countyName": "Kınık",
+        "countySlug": "kinik"
+      },
+      {
+        "countyName": "Kiraz",
+        "countySlug": "kiraz"
+      },
+      {
+        "countyName": "Konak",
+        "countySlug": "konak"
+      },
+      {
+        "countyName": "Menderes",
+        "countySlug": "menderes"
+      },
+      {
+        "countyName": "Menemen",
+        "countySlug": "menemen"
+      },
+      {
+        "countyName": "Narlıdere",
+        "countySlug": "narlidere"
+      },
+      {
+        "countyName": "Ödemiş",
+        "countySlug": "odemis"
+      },
+      {
+        "countyName": "Seferihisar",
+        "countySlug": "seferihisar"
+      },
+      {
+        "countyName": "Selçuk",
+        "countySlug": "selcuk"
+      },
+      {
+        "countyName": "Tire",
+        "countySlug": "tire"
+      },
+      {
+        "countyName": "Torbalı",
+        "countySlug": "torbali"
+      },
+      {
+        "countyName": "Urla",
+        "countySlug": "urla"
+      }
+    ]
+  },
+  {
+    "cityName": "Adana",
+    "citySlug": "adana",
+    "counties": [
+      {
+        "countyName": "Aladağ",
+        "countySlug": "aladag"
+      },
+      {
+        "countyName": "Ceyhan",
+        "countySlug": "ceyhan"
+      },
+      {
+        "countyName": "Çukurova",
+        "countySlug": "cukurova"
+      },
+      {
+        "countyName": "Feke",
+        "countySlug": "feke"
+      },
+      {
+        "countyName": "İmamoğlu",
+        "countySlug": "imamoglu"
+      },
+      {
+        "countyName": "Karaisalı",
+        "countySlug": "karaisali"
+      },
+      {
+        "countyName": "Karataş",
+        "countySlug": "karatas"
+      },
+      {
+        "countyName": "Kozan",
+        "countySlug": "kozan"
+      },
+      {
+        "countyName": "Pozantı",
+        "countySlug": "pozanti"
+      },
+      {
+        "countyName": "Saimbeyli",
+        "countySlug": "saimbeyli"
+      },
+      {
+        "countyName": "Sarıçam",
+        "countySlug": "saricam"
+      },
+      {
+        "countyName": "Seyhan",
+        "countySlug": "seyhan"
+      },
+      {
+        "countyName": "Tufanbeyli",
+        "countySlug": "tufanbeyli"
+      },
+      {
+        "countyName": "Yumurtalık",
+        "countySlug": "yumurtalik"
+      },
+      {
+        "countyName": "Yüreğir",
+        "countySlug": "yuregir"
+      }
+    ]
+  },
+  {
+    "cityName": "Adıyaman",
+    "citySlug": "adiyaman",
+    "counties": [
+      {
+        "countyName": "Besni",
+        "countySlug": "besni"
+      },
+      {
+        "countyName": "Çelikhan",
+        "countySlug": "celikhan"
+      },
+      {
+        "countyName": "Gerger",
+        "countySlug": "gerger"
+      },
+      {
+        "countyName": "Gölbaşı",
+        "countySlug": "golbasi"
+      },
+      {
+        "countyName": "Kahta",
+        "countySlug": "kahta"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Samsat",
+        "countySlug": "samsat"
+      },
+      {
+        "countyName": "Sincik",
+        "countySlug": "sincik"
+      },
+      {
+        "countyName": "Tut",
+        "countySlug": "tut"
+      }
+    ]
+  },
+  {
+    "cityName": "Afyonkarahisar",
+    "citySlug": "afyonkarahisar",
+    "counties": [
+      {
+        "countyName": "Başmakçı",
+        "countySlug": "basmakci"
+      },
+      {
+        "countyName": "Bayat",
+        "countySlug": "bayat"
+      },
+      {
+        "countyName": "Bolvadin",
+        "countySlug": "bolvadin"
+      },
+      {
+        "countyName": "Çay",
+        "countySlug": "cay"
+      },
+      {
+        "countyName": "Çobanlar",
+        "countySlug": "cobanlar"
+      },
+      {
+        "countyName": "Dazkırı",
+        "countySlug": "dazkiri"
+      },
+      {
+        "countyName": "Dinar",
+        "countySlug": "dinar"
+      },
+      {
+        "countyName": "Emirdağ",
+        "countySlug": "emirdag"
+      },
+      {
+        "countyName": "Evciler",
+        "countySlug": "evciler"
+      },
+      {
+        "countyName": "Hocalar",
+        "countySlug": "hocalar"
+      },
+      {
+        "countyName": "İhsaniye",
+        "countySlug": "ihsaniye"
+      },
+      {
+        "countyName": "İscehisar",
+        "countySlug": "iscehisar"
+      },
+      {
+        "countyName": "Kızılören",
+        "countySlug": "kiziloren"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Sandıklı",
+        "countySlug": "sandikli"
+      },
+      {
+        "countyName": "Sinanpaşa",
+        "countySlug": "sinanpasa"
+      },
+      {
+        "countyName": "Sultandağı",
+        "countySlug": "sultandagi"
+      },
+      {
+        "countyName": "Şuhut",
+        "countySlug": "suhut"
+      }
+    ]
+  },
+  {
+    "cityName": "Ağrı",
+    "citySlug": "agri",
+    "counties": [
+      {
+        "countyName": "Diyadin",
+        "countySlug": "diyadin"
+      },
+      {
+        "countyName": "Doğubeyazıt",
+        "countySlug": "dogubeyazit"
+      },
+      {
+        "countyName": "Eleşkirt",
+        "countySlug": "eleskirt"
+      },
+      {
+        "countyName": "Hamur",
+        "countySlug": "hamur"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Patnos",
+        "countySlug": "patnos"
+      },
+      {
+        "countyName": "Taşlıçay",
+        "countySlug": "taslicay"
+      },
+      {
+        "countyName": "Tutak",
+        "countySlug": "tutak"
+      }
+    ]
+  },
+  {
+    "cityName": "Aksaray",
+    "citySlug": "aksaray",
+    "counties": [
+      {
+        "countyName": "Ağaçören",
+        "countySlug": "agacoren"
+      },
+      {
+        "countyName": "Eskil",
+        "countySlug": "eskil"
+      },
+      {
+        "countyName": "Gülağaç",
+        "countySlug": "gulagac"
+      },
+      {
+        "countyName": "Güzelyurt",
+        "countySlug": "guzelyurt"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Ortaköy",
+        "countySlug": "ortakoy"
+      },
+      {
+        "countyName": "Sarıyahşi",
+        "countySlug": "sariyahsi"
+      },
+      {
+        "countyName": "Sultanhanı",
+        "countySlug": "sultanhani"
+      }
+    ]
+  },
+  {
+    "cityName": "Amasya",
+    "citySlug": "amasya",
+    "counties": [
+      {
+        "countyName": "Göynücek",
+        "countySlug": "goynucek"
+      },
+      {
+        "countyName": "Gümüşhacıköy",
+        "countySlug": "gumushacikoy"
+      },
+      {
+        "countyName": "Hamamözü",
+        "countySlug": "hamamozu"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Merzifon",
+        "countySlug": "merzifon"
+      },
+      {
+        "countyName": "Suluova",
+        "countySlug": "suluova"
+      },
+      {
+        "countyName": "Taşova",
+        "countySlug": "tasova"
+      }
+    ]
+  },
+  {
+    "cityName": "Antalya",
+    "citySlug": "antalya",
+    "counties": [
+      {
+        "countyName": "Akseki",
+        "countySlug": "akseki"
+      },
+      {
+        "countyName": "Aksu",
+        "countySlug": "aksu"
+      },
+      {
+        "countyName": "Alanya",
+        "countySlug": "alanya"
+      },
+      {
+        "countyName": "Demre",
+        "countySlug": "demre"
+      },
+      {
+        "countyName": "Döşemealtı",
+        "countySlug": "dosemealti"
+      },
+      {
+        "countyName": "Elmalı",
+        "countySlug": "elmali"
+      },
+      {
+        "countyName": "Finike",
+        "countySlug": "finike"
+      },
+      {
+        "countyName": "Gazipaşa",
+        "countySlug": "gazipasa"
+      },
+      {
+        "countyName": "Gündoğmuş",
+        "countySlug": "gundogmus"
+      },
+      {
+        "countyName": "İbradı",
+        "countySlug": "ibradi"
+      },
+      {
+        "countyName": "Kaş",
+        "countySlug": "kas"
+      },
+      {
+        "countyName": "Kemer",
+        "countySlug": "kemer"
+      },
+      {
+        "countyName": "Kepez",
+        "countySlug": "kepez"
+      },
+      {
+        "countyName": "Konyaaltı",
+        "countySlug": "konyaalti"
+      },
+      {
+        "countyName": "Korkuteli",
+        "countySlug": "korkuteli"
+      },
+      {
+        "countyName": "Kumluca",
+        "countySlug": "kumluca"
+      },
+      {
+        "countyName": "Manavgat",
+        "countySlug": "manavgat"
+      },
+      {
+        "countyName": "Muratpaşa",
+        "countySlug": "muratpasa"
+      },
+      {
+        "countyName": "Serik",
+        "countySlug": "serik"
+      }
+    ]
+  },
+  {
+    "cityName": "Ardahan",
+    "citySlug": "ardahan",
+    "counties": [
+      {
+        "countyName": "Çıldır",
+        "countySlug": "cildir"
+      },
+      {
+        "countyName": "Damal",
+        "countySlug": "damal"
+      },
+      {
+        "countyName": "Göle",
+        "countySlug": "gole"
+      },
+      {
+        "countyName": "Hanak",
+        "countySlug": "hanak"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Posof",
+        "countySlug": "posof"
+      }
+    ]
+  },
+  {
+    "cityName": "Artvin",
+    "citySlug": "artvin",
+    "counties": [
+      {
+        "countyName": "Ardanuç",
+        "countySlug": "ardanuc"
+      },
+      {
+        "countyName": "Arhavi",
+        "countySlug": "arhavi"
+      },
+      {
+        "countyName": "Borçka",
+        "countySlug": "borcka"
+      },
+      {
+        "countyName": "Hopa",
+        "countySlug": "hopa"
+      },
+      {
+        "countyName": "Kemalpaşa",
+        "countySlug": "kemalpasa"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Murgul",
+        "countySlug": "murgul"
+      },
+      {
+        "countyName": "Şavşat",
+        "countySlug": "savsat"
+      },
+      {
+        "countyName": "Yusufeli",
+        "countySlug": "yusufeli"
+      }
+    ]
+  },
+  {
+    "cityName": "Aydın",
+    "citySlug": "aydin",
+    "counties": [
+      {
+        "countyName": "Bozdoğan",
+        "countySlug": "bozdogan"
+      },
+      {
+        "countyName": "Buharkent",
+        "countySlug": "buharkent"
+      },
+      {
+        "countyName": "Çine",
+        "countySlug": "cine"
+      },
+      {
+        "countyName": "Didim",
+        "countySlug": "didim"
+      },
+      {
+        "countyName": "Efeler",
+        "countySlug": "efeler"
+      },
+      {
+        "countyName": "Germencik",
+        "countySlug": "germencik"
+      },
+      {
+        "countyName": "İncirliova",
+        "countySlug": "incirliova"
+      },
+      {
+        "countyName": "Karacasu",
+        "countySlug": "karacasu"
+      },
+      {
+        "countyName": "Karpuzlu",
+        "countySlug": "karpuzlu"
+      },
+      {
+        "countyName": "Koçarlı",
+        "countySlug": "kocarli"
+      },
+      {
+        "countyName": "Köşk",
+        "countySlug": "kosk"
+      },
+      {
+        "countyName": "Kuşadası",
+        "countySlug": "kusadasi"
+      },
+      {
+        "countyName": "Kuyucak",
+        "countySlug": "kuyucak"
+      },
+      {
+        "countyName": "Nazilli",
+        "countySlug": "nazilli"
+      },
+      {
+        "countyName": "Söke",
+        "countySlug": "soke"
+      },
+      {
+        "countyName": "Sultanhisar",
+        "countySlug": "sultanhisar"
+      },
+      {
+        "countyName": "Yenipazar",
+        "countySlug": "yenipazar"
+      }
+    ]
+  },
+  {
+    "cityName": "Balıkesir",
+    "citySlug": "balikesir",
+    "counties": [
+      {
+        "countyName": "Altıeylül",
+        "countySlug": "altieylul"
+      },
+      {
+        "countyName": "Ayvalık",
+        "countySlug": "ayvalik"
+      },
+      {
+        "countyName": "Balya",
+        "countySlug": "balya"
+      },
+      {
+        "countyName": "Bandırma",
+        "countySlug": "bandirma"
+      },
+      {
+        "countyName": "Bigadiç",
+        "countySlug": "bigadic"
+      },
+      {
+        "countyName": "Burhaniye",
+        "countySlug": "burhaniye"
+      },
+      {
+        "countyName": "Dursunbey",
+        "countySlug": "dursunbey"
+      },
+      {
+        "countyName": "Edremit",
+        "countySlug": "edremit"
+      },
+      {
+        "countyName": "Erdek",
+        "countySlug": "erdek"
+      },
+      {
+        "countyName": "Gömeç",
+        "countySlug": "gomec"
+      },
+      {
+        "countyName": "Gönen",
+        "countySlug": "gonen"
+      },
+      {
+        "countyName": "Havran",
+        "countySlug": "havran"
+      },
+      {
+        "countyName": "İvrindi",
+        "countySlug": "ivrindi"
+      },
+      {
+        "countyName": "Karesi",
+        "countySlug": "karesi"
+      },
+      {
+        "countyName": "Kepsut",
+        "countySlug": "kepsut"
+      },
+      {
+        "countyName": "Manyas",
+        "countySlug": "manyas"
+      },
+      {
+        "countyName": "Marmara",
+        "countySlug": "marmara"
+      },
+      {
+        "countyName": "Savaştepe",
+        "countySlug": "savastepe"
+      },
+      {
+        "countyName": "Sındırgı",
+        "countySlug": "sindirgi"
+      },
+      {
+        "countyName": "Susurluk",
+        "countySlug": "susurluk"
+      }
+    ]
+  },
+  {
+    "cityName": "Bartın",
+    "citySlug": "bartin",
+    "counties": [
+      {
+        "countyName": "Amasra",
+        "countySlug": "amasra"
+      },
+      {
+        "countyName": "Kurucaşile",
+        "countySlug": "kurucasile"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Ulus",
+        "countySlug": "ulus"
+      }
+    ]
+  },
+  {
+    "cityName": "Batman",
+    "citySlug": "batman",
+    "counties": [
+      {
+        "countyName": "Beşiri",
+        "countySlug": "besiri"
+      },
+      {
+        "countyName": "Gercüş",
+        "countySlug": "gercus"
+      },
+      {
+        "countyName": "Hasankeyf",
+        "countySlug": "hasankeyf"
+      },
+      {
+        "countyName": "Kozluk",
+        "countySlug": "kozluk"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Sason",
+        "countySlug": "sason"
+      }
+    ]
+  },
+  {
+    "cityName": "Bayburt",
+    "citySlug": "bayburt",
+    "counties": [
+      {
+        "countyName": "Aydıntepe",
+        "countySlug": "aydintepe"
+      },
+      {
+        "countyName": "Demirözü",
+        "countySlug": "demirozu"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      }
+    ]
+  },
+  {
+    "cityName": "Bilecik",
+    "citySlug": "bilecik",
+    "counties": [
+      {
+        "countyName": "Bozüyük",
+        "countySlug": "bozuyuk"
+      },
+      {
+        "countyName": "Gölpazarı",
+        "countySlug": "golpazari"
+      },
+      {
+        "countyName": "İnhisar",
+        "countySlug": "inhisar"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Osmaneli",
+        "countySlug": "osmaneli"
+      },
+      {
+        "countyName": "Pazaryeri",
+        "countySlug": "pazaryeri"
+      },
+      {
+        "countyName": "Söğüt",
+        "countySlug": "sogut"
+      },
+      {
+        "countyName": "Yenipazar",
+        "countySlug": "yenipazar"
+      }
+    ]
+  },
+  {
+    "cityName": "Bingöl",
+    "citySlug": "bingol",
+    "counties": [
+      {
+        "countyName": "Adaklı",
+        "countySlug": "adakli"
+      },
+      {
+        "countyName": "Genç",
+        "countySlug": "genc"
+      },
+      {
+        "countyName": "Karlıova",
+        "countySlug": "karliova"
+      },
+      {
+        "countyName": "Kiğı",
+        "countySlug": "kigi"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Solhan",
+        "countySlug": "solhan"
+      },
+      {
+        "countyName": "Yayladere",
+        "countySlug": "yayladere"
+      },
+      {
+        "countyName": "Yedisu",
+        "countySlug": "yedisu"
+      }
+    ]
+  },
+  {
+    "cityName": "Bitlis",
+    "citySlug": "bitlis",
+    "counties": [
+      {
+        "countyName": "Adilcevaz",
+        "countySlug": "adilcevaz"
+      },
+      {
+        "countyName": "Ahlat",
+        "countySlug": "ahlat"
+      },
+      {
+        "countyName": "Güroymak",
+        "countySlug": "guroymak"
+      },
+      {
+        "countyName": "Hizan",
+        "countySlug": "hizan"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Mutki",
+        "countySlug": "mutki"
+      },
+      {
+        "countyName": "Tatvan",
+        "countySlug": "tatvan"
+      }
+    ]
+  },
+  {
+    "cityName": "Bolu",
+    "citySlug": "bolu",
+    "counties": [
+      {
+        "countyName": "Dörtdivan",
+        "countySlug": "dortdivan"
+      },
+      {
+        "countyName": "Gerede",
+        "countySlug": "gerede"
+      },
+      {
+        "countyName": "Göynük",
+        "countySlug": "goynuk"
+      },
+      {
+        "countyName": "Kıbrıscık",
+        "countySlug": "kibriscik"
+      },
+      {
+        "countyName": "Mengen",
+        "countySlug": "mengen"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Mudurnu",
+        "countySlug": "mudurnu"
+      },
+      {
+        "countyName": "Seben",
+        "countySlug": "seben"
+      },
+      {
+        "countyName": "Yeniçağa",
+        "countySlug": "yenicaga"
+      }
+    ]
+  },
+  {
+    "cityName": "Burdur",
+    "citySlug": "burdur",
+    "counties": [
+      {
+        "countyName": "Ağlasun",
+        "countySlug": "aglasun"
+      },
+      {
+        "countyName": "Altınyayla",
+        "countySlug": "altinyayla"
+      },
+      {
+        "countyName": "Bucak",
+        "countySlug": "bucak"
+      },
+      {
+        "countyName": "Çavdır",
+        "countySlug": "cavdir"
+      },
+      {
+        "countyName": "Çeltikçi",
+        "countySlug": "celtikci"
+      },
+      {
+        "countyName": "Gölhisar",
+        "countySlug": "golhisar"
+      },
+      {
+        "countyName": "Karamanlı",
+        "countySlug": "karamanli"
+      },
+      {
+        "countyName": "Kemer",
+        "countySlug": "kemer"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Tefenni",
+        "countySlug": "tefenni"
+      },
+      {
+        "countyName": "Yeşilova",
+        "countySlug": "yesilova"
+      }
+    ]
+  },
+  {
+    "cityName": "Bursa",
+    "citySlug": "bursa",
+    "counties": [
+      {
+        "countyName": "Büyükorhan",
+        "countySlug": "buyukorhan"
+      },
+      {
+        "countyName": "Gemlik",
+        "countySlug": "gemlik"
+      },
+      {
+        "countyName": "Gürsu",
+        "countySlug": "gursu"
+      },
+      {
+        "countyName": "Harmancık",
+        "countySlug": "harmancik"
+      },
+      {
+        "countyName": "İnegöl",
+        "countySlug": "inegol"
+      },
+      {
+        "countyName": "İznik",
+        "countySlug": "iznik"
+      },
+      {
+        "countyName": "Karacabey",
+        "countySlug": "karacabey"
+      },
+      {
+        "countyName": "Keles",
+        "countySlug": "keles"
+      },
+      {
+        "countyName": "Kestel",
+        "countySlug": "kestel"
+      },
+      {
+        "countyName": "Mudanya",
+        "countySlug": "mudanya"
+      },
+      {
+        "countyName": "Mustafakemalpaşa",
+        "countySlug": "mustafakemalpasa"
+      },
+      {
+        "countyName": "Nilüfer",
+        "countySlug": "nilufer"
+      },
+      {
+        "countyName": "Orhaneli",
+        "countySlug": "orhaneli"
+      },
+      {
+        "countyName": "Orhangazi",
+        "countySlug": "orhangazi"
+      },
+      {
+        "countyName": "Osmangazi",
+        "countySlug": "osmangazi"
+      },
+      {
+        "countyName": "Yenişehir",
+        "countySlug": "yenisehir"
+      },
+      {
+        "countyName": "Yıldırım",
+        "countySlug": "yildirim"
+      }
+    ]
+  },
+  {
+    "cityName": "Çanakkale",
+    "citySlug": "canakkale",
+    "counties": [
+      {
+        "countyName": "Ayvacık",
+        "countySlug": "ayvacik"
+      },
+      {
+        "countyName": "Bayramiç",
+        "countySlug": "bayramic"
+      },
+      {
+        "countyName": "Biga",
+        "countySlug": "biga"
+      },
+      {
+        "countyName": "Bozcaada",
+        "countySlug": "bozcaada"
+      },
+      {
+        "countyName": "Çan",
+        "countySlug": "can"
+      },
+      {
+        "countyName": "Eceabat",
+        "countySlug": "eceabat"
+      },
+      {
+        "countyName": "Ezine",
+        "countySlug": "ezine"
+      },
+      {
+        "countyName": "Gelibolu",
+        "countySlug": "gelibolu"
+      },
+      {
+        "countyName": "Gökçeada",
+        "countySlug": "gokceada"
+      },
+      {
+        "countyName": "Lapseki",
+        "countySlug": "lapseki"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Yenice",
+        "countySlug": "yenice"
+      }
+    ]
+  },
+  {
+    "cityName": "Çankırı",
+    "citySlug": "cankiri",
+    "counties": [
+      {
+        "countyName": "Atkaracalar",
+        "countySlug": "atkaracalar"
+      },
+      {
+        "countyName": "Bayramören",
+        "countySlug": "bayramoren"
+      },
+      {
+        "countyName": "Çerkeş",
+        "countySlug": "cerkes"
+      },
+      {
+        "countyName": "Eldivan",
+        "countySlug": "eldivan"
+      },
+      {
+        "countyName": "Ilgaz",
+        "countySlug": "ilgaz"
+      },
+      {
+        "countyName": "Kızılırmak",
+        "countySlug": "kizilirmak"
+      },
+      {
+        "countyName": "Korgun",
+        "countySlug": "korgun"
+      },
+      {
+        "countyName": "Kurşunlu",
+        "countySlug": "kursunlu"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Orta",
+        "countySlug": "orta"
+      },
+      {
+        "countyName": "Şabanözü",
+        "countySlug": "sabanozu"
+      },
+      {
+        "countyName": "Yapraklı",
+        "countySlug": "yaprakli"
+      }
+    ]
+  },
+  {
+    "cityName": "Çorum",
+    "citySlug": "corum",
+    "counties": [
+      {
+        "countyName": "Alaca",
+        "countySlug": "alaca"
+      },
+      {
+        "countyName": "Bayat",
+        "countySlug": "bayat"
+      },
+      {
+        "countyName": "Boğazkale",
+        "countySlug": "bogazkale"
+      },
+      {
+        "countyName": "Dodurga",
+        "countySlug": "dodurga"
+      },
+      {
+        "countyName": "İskilip",
+        "countySlug": "iskilip"
+      },
+      {
+        "countyName": "Kargı",
+        "countySlug": "kargi"
+      },
+      {
+        "countyName": "Laçin",
+        "countySlug": "lacin"
+      },
+      {
+        "countyName": "Mecitözü",
+        "countySlug": "mecitozu"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Oğuzlar",
+        "countySlug": "oguzlar"
+      },
+      {
+        "countyName": "Ortaköy",
+        "countySlug": "ortakoy"
+      },
+      {
+        "countyName": "Osmancık",
+        "countySlug": "osmancik"
+      },
+      {
+        "countyName": "Sungurlu",
+        "countySlug": "sungurlu"
+      },
+      {
+        "countyName": "Uğurludağ",
+        "countySlug": "ugurludag"
+      }
+    ]
+  },
+  {
+    "cityName": "Denizli",
+    "citySlug": "denizli",
+    "counties": [
+      {
+        "countyName": "Acıpayam",
+        "countySlug": "acipayam"
+      },
+      {
+        "countyName": "Babadağ",
+        "countySlug": "babadag"
+      },
+      {
+        "countyName": "Baklan",
+        "countySlug": "baklan"
+      },
+      {
+        "countyName": "Bekilli",
+        "countySlug": "bekilli"
+      },
+      {
+        "countyName": "Beyağaç",
+        "countySlug": "beyagac"
+      },
+      {
+        "countyName": "Bozkurt",
+        "countySlug": "bozkurt"
+      },
+      {
+        "countyName": "Buldan",
+        "countySlug": "buldan"
+      },
+      {
+        "countyName": "Çal",
+        "countySlug": "cal"
+      },
+      {
+        "countyName": "Çameli",
+        "countySlug": "cameli"
+      },
+      {
+        "countyName": "Çardak",
+        "countySlug": "cardak"
+      },
+      {
+        "countyName": "Çivril",
+        "countySlug": "civril"
+      },
+      {
+        "countyName": "Güney",
+        "countySlug": "guney"
+      },
+      {
+        "countyName": "Honaz",
+        "countySlug": "honaz"
+      },
+      {
+        "countyName": "Kale",
+        "countySlug": "kale"
+      },
+      {
+        "countyName": "Merkezefendi",
+        "countySlug": "merkezefendi"
+      },
+      {
+        "countyName": "Pamukkale",
+        "countySlug": "pamukkale"
+      },
+      {
+        "countyName": "Sarayköy",
+        "countySlug": "saraykoy"
+      },
+      {
+        "countyName": "Serinhisar",
+        "countySlug": "serinhisar"
+      },
+      {
+        "countyName": "Tavas",
+        "countySlug": "tavas"
+      }
+    ]
+  },
+  {
+    "cityName": "Diyarbakır",
+    "citySlug": "diyarbakir",
+    "counties": [
+      {
+        "countyName": "Bağlar",
+        "countySlug": "baglar"
+      },
+      {
+        "countyName": "Bismil",
+        "countySlug": "bismil"
+      },
+      {
+        "countyName": "Çermik",
+        "countySlug": "cermik"
+      },
+      {
+        "countyName": "Çınar",
+        "countySlug": "cinar"
+      },
+      {
+        "countyName": "Çüngüş",
+        "countySlug": "cungus"
+      },
+      {
+        "countyName": "Dicle",
+        "countySlug": "dicle"
+      },
+      {
+        "countyName": "Eğil",
+        "countySlug": "egil"
+      },
+      {
+        "countyName": "Ergani",
+        "countySlug": "ergani"
+      },
+      {
+        "countyName": "Hani",
+        "countySlug": "hani"
+      },
+      {
+        "countyName": "Hazro",
+        "countySlug": "hazro"
+      },
+      {
+        "countyName": "Kayapınar",
+        "countySlug": "kayapinar"
+      },
+      {
+        "countyName": "Kocaköy",
+        "countySlug": "kocakoy"
+      },
+      {
+        "countyName": "Kulp",
+        "countySlug": "kulp"
+      },
+      {
+        "countyName": "Lice",
+        "countySlug": "lice"
+      },
+      {
+        "countyName": "Silvan",
+        "countySlug": "silvan"
+      },
+      {
+        "countyName": "Sur",
+        "countySlug": "sur"
+      },
+      {
+        "countyName": "Yenişehir",
+        "countySlug": "yenisehir"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      }
+    ]
+  },
+  {
+    "cityName": "Düzce",
+    "citySlug": "duzce",
+    "counties": [
+      {
+        "countyName": "Akçakoca",
+        "countySlug": "akcakoca"
+      },
+      {
+        "countyName": "Cumayeri",
+        "countySlug": "cumayeri"
+      },
+      {
+        "countyName": "Çilimli",
+        "countySlug": "cilimli"
+      },
+      {
+        "countyName": "Gölyaka",
+        "countySlug": "golyaka"
+      },
+      {
+        "countyName": "Gümüşova",
+        "countySlug": "gumusova"
+      },
+      {
+        "countyName": "Kaynaşlı",
+        "countySlug": "kaynasli"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Yığılca",
+        "countySlug": "yigilca"
+      }
+    ]
+  },
+  {
+    "cityName": "Edirne",
+    "citySlug": "edirne",
+    "counties": [
+      {
+        "countyName": "Enez",
+        "countySlug": "enez"
+      },
+      {
+        "countyName": "Havsa",
+        "countySlug": "havsa"
+      },
+      {
+        "countyName": "İpsala",
+        "countySlug": "ipsala"
+      },
+      {
+        "countyName": "Keşan",
+        "countySlug": "kesan"
+      },
+      {
+        "countyName": "Lalapaşa",
+        "countySlug": "lalapasa"
+      },
+      {
+        "countyName": "Meriç",
+        "countySlug": "meric"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Süloğlu",
+        "countySlug": "suloglu"
+      },
+      {
+        "countyName": "Uzunköprü",
+        "countySlug": "uzunkopru"
+      }
+    ]
+  },
+  {
+    "cityName": "Elazığ",
+    "citySlug": "elazig",
+    "counties": [
+      {
+        "countyName": "Ağın",
+        "countySlug": "agin"
+      },
+      {
+        "countyName": "Alacakaya",
+        "countySlug": "alacakaya"
+      },
+      {
+        "countyName": "Arıcak",
+        "countySlug": "aricak"
+      },
+      {
+        "countyName": "Baskil",
+        "countySlug": "baskil"
+      },
+      {
+        "countyName": "Karakoçan",
+        "countySlug": "karakocan"
+      },
+      {
+        "countyName": "Keban",
+        "countySlug": "keban"
+      },
+      {
+        "countyName": "Kovancılar",
+        "countySlug": "kovancilar"
+      },
+      {
+        "countyName": "Maden",
+        "countySlug": "maden"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Palu",
+        "countySlug": "palu"
+      },
+      {
+        "countyName": "Sivrice",
+        "countySlug": "sivrice"
+      }
+    ]
+  },
+  {
+    "cityName": "Erzincan",
+    "citySlug": "erzincan",
+    "counties": [
+      {
+        "countyName": "Çayırlı",
+        "countySlug": "cayirli"
+      },
+      {
+        "countyName": "İliç",
+        "countySlug": "ilic"
+      },
+      {
+        "countyName": "Kemah",
+        "countySlug": "kemah"
+      },
+      {
+        "countyName": "Kemaliye",
+        "countySlug": "kemaliye"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Otlukbeli",
+        "countySlug": "otlukbeli"
+      },
+      {
+        "countyName": "Refahiye",
+        "countySlug": "refahiye"
+      },
+      {
+        "countyName": "Tercan",
+        "countySlug": "tercan"
+      },
+      {
+        "countyName": "Üzümlü",
+        "countySlug": "uzumlu"
+      }
+    ]
+  },
+  {
+    "cityName": "Erzurum",
+    "citySlug": "erzurum",
+    "counties": [
+      {
+        "countyName": "Aşkale",
+        "countySlug": "askale"
+      },
+      {
+        "countyName": "Aziziye",
+        "countySlug": "aziziye"
+      },
+      {
+        "countyName": "Çat",
+        "countySlug": "cat"
+      },
+      {
+        "countyName": "Hınıs",
+        "countySlug": "hinis"
+      },
+      {
+        "countyName": "Horasan",
+        "countySlug": "horasan"
+      },
+      {
+        "countyName": "İspir",
+        "countySlug": "ispir"
+      },
+      {
+        "countyName": "Karaçoban",
+        "countySlug": "karacoban"
+      },
+      {
+        "countyName": "Karayazı",
+        "countySlug": "karayazi"
+      },
+      {
+        "countyName": "Köprüköy",
+        "countySlug": "koprukoy"
+      },
+      {
+        "countyName": "Narman",
+        "countySlug": "narman"
+      },
+      {
+        "countyName": "Oltu",
+        "countySlug": "oltu"
+      },
+      {
+        "countyName": "Olur",
+        "countySlug": "olur"
+      },
+      {
+        "countyName": "Palandöken",
+        "countySlug": "palandoken"
+      },
+      {
+        "countyName": "Pasinler",
+        "countySlug": "pasinler"
+      },
+      {
+        "countyName": "Pazaryolu",
+        "countySlug": "pazaryolu"
+      },
+      {
+        "countyName": "Şenkaya",
+        "countySlug": "senkaya"
+      },
+      {
+        "countyName": "Tekman",
+        "countySlug": "tekman"
+      },
+      {
+        "countyName": "Tortum",
+        "countySlug": "tortum"
+      },
+      {
+        "countyName": "Uzundere",
+        "countySlug": "uzundere"
+      },
+      {
+        "countyName": "Yakutiye",
+        "countySlug": "yakutiye"
+      }
+    ]
+  },
+  {
+    "cityName": "Eskişehir",
+    "citySlug": "eskisehir",
+    "counties": [
+      {
+        "countyName": "Alpu",
+        "countySlug": "alpu"
+      },
+      {
+        "countyName": "Beylikova",
+        "countySlug": "beylikova"
+      },
+      {
+        "countyName": "Çifteler",
+        "countySlug": "cifteler"
+      },
+      {
+        "countyName": "Günyüzü",
+        "countySlug": "gunyuzu"
+      },
+      {
+        "countyName": "Han",
+        "countySlug": "han"
+      },
+      {
+        "countyName": "İnönü",
+        "countySlug": "inonu"
+      },
+      {
+        "countyName": "Mahmudiye",
+        "countySlug": "mahmudiye"
+      },
+      {
+        "countyName": "Mihalgazi",
+        "countySlug": "mihalgazi"
+      },
+      {
+        "countyName": "Mihalıççık",
+        "countySlug": "mihaliccik"
+      },
+      {
+        "countyName": "Odunpazarı",
+        "countySlug": "odunpazari"
+      },
+      {
+        "countyName": "Sarıcakaya",
+        "countySlug": "saricakaya"
+      },
+      {
+        "countyName": "Seyitgazi",
+        "countySlug": "seyitgazi"
+      },
+      {
+        "countyName": "Sivrihisar",
+        "countySlug": "sivrihisar"
+      },
+      {
+        "countyName": "Tepebaşı",
+        "countySlug": "tepebasi"
+      }
+    ]
+  },
+  {
+    "cityName": "Gaziantep",
+    "citySlug": "gaziantep",
+    "counties": [
+      {
+        "countyName": "Araban",
+        "countySlug": "araban"
+      },
+      {
+        "countyName": "İslahiye",
+        "countySlug": "islahiye"
+      },
+      {
+        "countyName": "Karkamış",
+        "countySlug": "karkamis"
+      },
+      {
+        "countyName": "Nizip",
+        "countySlug": "nizip"
+      },
+      {
+        "countyName": "Nurdağı",
+        "countySlug": "nurdagi"
+      },
+      {
+        "countyName": "Oğuzeli",
+        "countySlug": "oguzeli"
+      },
+      {
+        "countyName": "Şahinbey",
+        "countySlug": "sahinbey"
+      },
+      {
+        "countyName": "Şehitkamil",
+        "countySlug": "sehitkamil"
+      },
+      {
+        "countyName": "Yavuzeli",
+        "countySlug": "yavuzeli"
+      }
+    ]
+  },
+  {
+    "cityName": "Giresun",
+    "citySlug": "giresun",
+    "counties": [
+      {
+        "countyName": "Alucra",
+        "countySlug": "alucra"
+      },
+      {
+        "countyName": "Bulancak",
+        "countySlug": "bulancak"
+      },
+      {
+        "countyName": "Çamoluk",
+        "countySlug": "camoluk"
+      },
+      {
+        "countyName": "Çanakçı",
+        "countySlug": "canakci"
+      },
+      {
+        "countyName": "Dereli",
+        "countySlug": "dereli"
+      },
+      {
+        "countyName": "Doğankent",
+        "countySlug": "dogankent"
+      },
+      {
+        "countyName": "Espiye",
+        "countySlug": "espiye"
+      },
+      {
+        "countyName": "Eynesil",
+        "countySlug": "eynesil"
+      },
+      {
+        "countyName": "Görele",
+        "countySlug": "gorele"
+      },
+      {
+        "countyName": "Güce",
+        "countySlug": "guce"
+      },
+      {
+        "countyName": "Keşap",
+        "countySlug": "kesap"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Piraziz",
+        "countySlug": "piraziz"
+      },
+      {
+        "countyName": "Şebinkarahisar",
+        "countySlug": "sebinkarahisar"
+      },
+      {
+        "countyName": "Tirebolu",
+        "countySlug": "tirebolu"
+      },
+      {
+        "countyName": "Yağlıdere",
+        "countySlug": "yaglidere"
+      }
+    ]
+  },
+  {
+    "cityName": "Gümüşhane",
+    "citySlug": "gumushane",
+    "counties": [
+      {
+        "countyName": "Kelkit",
+        "countySlug": "kelkit"
+      },
+      {
+        "countyName": "Köse",
+        "countySlug": "kose"
+      },
+      {
+        "countyName": "Kürtün",
+        "countySlug": "kurtun"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Şiran",
+        "countySlug": "siran"
+      },
+      {
+        "countyName": "Torul",
+        "countySlug": "torul"
+      }
+    ]
+  },
+  {
+    "cityName": "Hakkari",
+    "citySlug": "hakkari",
+    "counties": [
+      {
+        "countyName": "Çukurca",
+        "countySlug": "cukurca"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Şemdinli",
+        "countySlug": "semdinli"
+      },
+      {
+        "countyName": "Yüksekova",
+        "countySlug": "yuksekova"
+      }
+    ]
+  },
+  {
+    "cityName": "Hatay",
+    "citySlug": "hatay",
+    "counties": [
+      {
+        "countyName": "Altınözü",
+        "countySlug": "altinozu"
+      },
+      {
+        "countyName": "Antakya-Defne",
+        "countySlug": "antakya-defne"
+      },
+      {
+        "countyName": "Arsuz",
+        "countySlug": "arsuz"
+      },
+      {
+        "countyName": "Belen",
+        "countySlug": "belen"
+      },
+      {
+        "countyName": "Dörtyol",
+        "countySlug": "dortyol"
+      },
+      {
+        "countyName": "Erzin",
+        "countySlug": "erzin"
+      },
+      {
+        "countyName": "Hassa",
+        "countySlug": "hassa"
+      },
+      {
+        "countyName": "İskenderun",
+        "countySlug": "iskenderun"
+      },
+      {
+        "countyName": "Kırıkhan",
+        "countySlug": "kirikhan"
+      },
+      {
+        "countyName": "Kumlu",
+        "countySlug": "kumlu"
+      },
+      {
+        "countyName": "Payas",
+        "countySlug": "payas"
+      },
+      {
+        "countyName": "Reyhanlı",
+        "countySlug": "reyhanli"
+      },
+      {
+        "countyName": "Samandağ",
+        "countySlug": "samandag"
+      },
+      {
+        "countyName": "Yayladağı",
+        "countySlug": "yayladagi"
+      }
+    ]
+  },
+  {
+    "cityName": "Iğdır",
+    "citySlug": "igdir",
+    "counties": [
+      {
+        "countyName": "Aralık",
+        "countySlug": "aralik"
+      },
+      {
+        "countyName": "Karakoyunlu",
+        "countySlug": "karakoyunlu"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Tuzluca",
+        "countySlug": "tuzluca"
+      }
+    ]
+  },
+  {
+    "cityName": "Isparta",
+    "citySlug": "isparta",
+    "counties": [
+      {
+        "countyName": "Aksu",
+        "countySlug": "aksu"
+      },
+      {
+        "countyName": "Atabey",
+        "countySlug": "atabey"
+      },
+      {
+        "countyName": "Eğirdir",
+        "countySlug": "egirdir"
+      },
+      {
+        "countyName": "Gelendost",
+        "countySlug": "gelendost"
+      },
+      {
+        "countyName": "Gönen",
+        "countySlug": "gonen"
+      },
+      {
+        "countyName": "Keçiborlu",
+        "countySlug": "keciborlu"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Senirkent",
+        "countySlug": "senirkent"
+      },
+      {
+        "countyName": "Sütçüler",
+        "countySlug": "sutculer"
+      },
+      {
+        "countyName": "Şarkikaraağaç",
+        "countySlug": "sarkikaraagac"
+      },
+      {
+        "countyName": "Uluborlu",
+        "countySlug": "uluborlu"
+      },
+      {
+        "countyName": "Yalvaç",
+        "countySlug": "yalvac"
+      },
+      {
+        "countyName": "Yenişarbademli",
+        "countySlug": "yenisarbademli"
+      }
+    ]
+  },
+  {
+    "cityName": "Kahramanmaraş",
+    "citySlug": "kahramanmaras",
+    "counties": [
+      {
+        "countyName": "Afşin",
+        "countySlug": "afsin"
+      },
+      {
+        "countyName": "Andırın",
+        "countySlug": "andirin"
+      },
+      {
+        "countyName": "Çağlayancerit",
+        "countySlug": "caglayancerit"
+      },
+      {
+        "countyName": "Dulkadiroğlu",
+        "countySlug": "dulkadiroglu"
+      },
+      {
+        "countyName": "Ekinözü",
+        "countySlug": "ekinozu"
+      },
+      {
+        "countyName": "Elbistan",
+        "countySlug": "elbistan"
+      },
+      {
+        "countyName": "Göksun",
+        "countySlug": "goksun"
+      },
+      {
+        "countyName": "Nurhak",
+        "countySlug": "nurhak"
+      },
+      {
+        "countyName": "Onikişubat",
+        "countySlug": "onikisubat"
+      },
+      {
+        "countyName": "Pazarcık",
+        "countySlug": "pazarcik"
+      },
+      {
+        "countyName": "Türkoğlu",
+        "countySlug": "turkoglu"
+      }
+    ]
+  },
+  {
+    "cityName": "Karabük",
+    "citySlug": "karabuk",
+    "counties": [
+      {
+        "countyName": "Eflani",
+        "countySlug": "eflani"
+      },
+      {
+        "countyName": "Eskipazar",
+        "countySlug": "eskipazar"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Ovacık",
+        "countySlug": "ovacik"
+      },
+      {
+        "countyName": "Safranbolu",
+        "countySlug": "safranbolu"
+      },
+      {
+        "countyName": "Yenice",
+        "countySlug": "yenice"
+      }
+    ]
+  },
+  {
+    "cityName": "Karaman",
+    "citySlug": "karaman",
+    "counties": [
+      {
+        "countyName": "Ayrancı",
+        "countySlug": "ayranci"
+      },
+      {
+        "countyName": "Başyayla",
+        "countySlug": "basyayla"
+      },
+      {
+        "countyName": "Ermenek",
+        "countySlug": "ermenek"
+      },
+      {
+        "countyName": "Kazımkarabekir",
+        "countySlug": "kazimkarabekir"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Sarıveliler",
+        "countySlug": "sariveliler"
+      }
+    ]
+  },
+  {
+    "cityName": "Kars",
+    "citySlug": "kars",
+    "counties": [
+      {
+        "countyName": "Akyaka",
+        "countySlug": "akyaka"
+      },
+      {
+        "countyName": "Arpaçay",
+        "countySlug": "arpacay"
+      },
+      {
+        "countyName": "Digor",
+        "countySlug": "digor"
+      },
+      {
+        "countyName": "Kağızman",
+        "countySlug": "kagizman"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Sarıkamış",
+        "countySlug": "sarikamis"
+      },
+      {
+        "countyName": "Selim",
+        "countySlug": "selim"
+      },
+      {
+        "countyName": "Susuz",
+        "countySlug": "susuz"
+      }
+    ]
+  },
+  {
+    "cityName": "Kastamonu",
+    "citySlug": "kastamonu",
+    "counties": [
+      {
+        "countyName": "Abana",
+        "countySlug": "abana"
+      },
+      {
+        "countyName": "Ağlı",
+        "countySlug": "agli"
+      },
+      {
+        "countyName": "Araç",
+        "countySlug": "arac"
+      },
+      {
+        "countyName": "Azdavay",
+        "countySlug": "azdavay"
+      },
+      {
+        "countyName": "Bozkurt",
+        "countySlug": "bozkurt"
+      },
+      {
+        "countyName": "Cide",
+        "countySlug": "cide"
+      },
+      {
+        "countyName": "Çatalzeytin",
+        "countySlug": "catalzeytin"
+      },
+      {
+        "countyName": "Daday",
+        "countySlug": "daday"
+      },
+      {
+        "countyName": "Devrekani",
+        "countySlug": "devrekani"
+      },
+      {
+        "countyName": "Doğanyurt",
+        "countySlug": "doganyurt"
+      },
+      {
+        "countyName": "Hanönü",
+        "countySlug": "hanonu"
+      },
+      {
+        "countyName": "İhsangazi",
+        "countySlug": "ihsangazi"
+      },
+      {
+        "countyName": "İnebolu",
+        "countySlug": "inebolu"
+      },
+      {
+        "countyName": "Küre",
+        "countySlug": "kure"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Pınarbaşı",
+        "countySlug": "pinarbasi"
+      },
+      {
+        "countyName": "Seydiler",
+        "countySlug": "seydiler"
+      },
+      {
+        "countyName": "Şenpazar",
+        "countySlug": "senpazar"
+      },
+      {
+        "countyName": "Taşköprü",
+        "countySlug": "taskopru"
+      },
+      {
+        "countyName": "Tosya",
+        "countySlug": "tosya"
+      }
+    ]
+  },
+  {
+    "cityName": "Kayseri",
+    "citySlug": "kayseri",
+    "counties": [
+      {
+        "countyName": "Akkışla",
+        "countySlug": "akkisla"
+      },
+      {
+        "countyName": "Bünyan",
+        "countySlug": "bunyan"
+      },
+      {
+        "countyName": "Develi",
+        "countySlug": "develi"
+      },
+      {
+        "countyName": "Felahiye",
+        "countySlug": "felahiye"
+      },
+      {
+        "countyName": "Hacılar",
+        "countySlug": "hacilar"
+      },
+      {
+        "countyName": "İncesu",
+        "countySlug": "incesu"
+      },
+      {
+        "countyName": "Kocasinan",
+        "countySlug": "kocasinan"
+      },
+      {
+        "countyName": "Melikgazi",
+        "countySlug": "melikgazi"
+      },
+      {
+        "countyName": "Özvatan",
+        "countySlug": "ozvatan"
+      },
+      {
+        "countyName": "Pınarbaşı",
+        "countySlug": "pinarbasi"
+      },
+      {
+        "countyName": "Sarıoğlan",
+        "countySlug": "sarioglan"
+      },
+      {
+        "countyName": "Sarız",
+        "countySlug": "sariz"
+      },
+      {
+        "countyName": "Talas",
+        "countySlug": "talas"
+      },
+      {
+        "countyName": "Tomarza",
+        "countySlug": "tomarza"
+      },
+      {
+        "countyName": "Yahyalı",
+        "countySlug": "yahyali"
+      },
+      {
+        "countyName": "Yeşilhisar",
+        "countySlug": "yesilhisar"
+      }
+    ]
+  },
+  {
+    "cityName": "Kırıkkale",
+    "citySlug": "kirikkale",
+    "counties": [
+      {
+        "countyName": "Bahşili",
+        "countySlug": "bahsili"
+      },
+      {
+        "countyName": "Balışeyh",
+        "countySlug": "baliseyh"
+      },
+      {
+        "countyName": "Çelebi",
+        "countySlug": "celebi"
+      },
+      {
+        "countyName": "Delice",
+        "countySlug": "delice"
+      },
+      {
+        "countyName": "Karakeçili",
+        "countySlug": "karakecili"
+      },
+      {
+        "countyName": "Keskin",
+        "countySlug": "keskin"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Sulakyurt",
+        "countySlug": "sulakyurt"
+      },
+      {
+        "countyName": "Yahşihan",
+        "countySlug": "yahsihan"
+      }
+    ]
+  },
+  {
+    "cityName": "Kırklareli",
+    "citySlug": "kirklareli",
+    "counties": [
+      {
+        "countyName": "Babaeski",
+        "countySlug": "babaeski"
+      },
+      {
+        "countyName": "Demirköy",
+        "countySlug": "demirkoy"
+      },
+      {
+        "countyName": "Kofçaz",
+        "countySlug": "kofcaz"
+      },
+      {
+        "countyName": "Lüleburgaz",
+        "countySlug": "luleburgaz"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Pehlivanköy",
+        "countySlug": "pehlivankoy"
+      },
+      {
+        "countyName": "Pınarhisar",
+        "countySlug": "pinarhisar"
+      },
+      {
+        "countyName": "Vize",
+        "countySlug": "vize"
+      }
+    ]
+  },
+  {
+    "cityName": "Kırşehir",
+    "citySlug": "kirsehir",
+    "counties": [
+      {
+        "countyName": "Akçakent",
+        "countySlug": "akcakent"
+      },
+      {
+        "countyName": "Akpınar",
+        "countySlug": "akpinar"
+      },
+      {
+        "countyName": "Boztepe",
+        "countySlug": "boztepe"
+      },
+      {
+        "countyName": "Çiçekdağı",
+        "countySlug": "cicekdagi"
+      },
+      {
+        "countyName": "Kaman",
+        "countySlug": "kaman"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Mucur",
+        "countySlug": "mucur"
+      }
+    ]
+  },
+  {
+    "cityName": "Kilis",
+    "citySlug": "kilis",
+    "counties": [
+      {
+        "countyName": "Elbeyli",
+        "countySlug": "elbeyli"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Musabeyli",
+        "countySlug": "musabeyli"
+      },
+      {
+        "countyName": "Polateli",
+        "countySlug": "polateli"
+      }
+    ]
+  },
+  {
+    "cityName": "Kocaeli",
+    "citySlug": "kocaeli",
+    "counties": [
+      {
+        "countyName": "Başiskele",
+        "countySlug": "basiskele"
+      },
+      {
+        "countyName": "Çayırova",
+        "countySlug": "cayirova"
+      },
+      {
+        "countyName": "Darıca",
+        "countySlug": "darica"
+      },
+      {
+        "countyName": "Derince",
+        "countySlug": "derince"
+      },
+      {
+        "countyName": "Dilovası",
+        "countySlug": "dilovasi"
+      },
+      {
+        "countyName": "Gebze",
+        "countySlug": "gebze"
+      },
+      {
+        "countyName": "Gölcük",
+        "countySlug": "golcuk"
+      },
+      {
+        "countyName": "İzmit",
+        "countySlug": "izmit"
+      },
+      {
+        "countyName": "Kandıra",
+        "countySlug": "kandira"
+      },
+      {
+        "countyName": "Karamürsel",
+        "countySlug": "karamursel"
+      },
+      {
+        "countyName": "Kartepe",
+        "countySlug": "kartepe"
+      },
+      {
+        "countyName": "Körfez",
+        "countySlug": "korfez"
+      }
+    ]
+  },
+  {
+    "cityName": "Konya",
+    "citySlug": "konya",
+    "counties": [
+      {
+        "countyName": "Ahırlı",
+        "countySlug": "ahirli"
+      },
+      {
+        "countyName": "Akören",
+        "countySlug": "akoren"
+      },
+      {
+        "countyName": "Akşehir",
+        "countySlug": "aksehir"
+      },
+      {
+        "countyName": "Altınekin",
+        "countySlug": "altinekin"
+      },
+      {
+        "countyName": "Beyşehir",
+        "countySlug": "beysehir"
+      },
+      {
+        "countyName": "Bozkır",
+        "countySlug": "bozkir"
+      },
+      {
+        "countyName": "Cihanbeyli",
+        "countySlug": "cihanbeyli"
+      },
+      {
+        "countyName": "Çeltik",
+        "countySlug": "celtik"
+      },
+      {
+        "countyName": "Çumra",
+        "countySlug": "cumra"
+      },
+      {
+        "countyName": "Derbent",
+        "countySlug": "derbent"
+      },
+      {
+        "countyName": "Derebucak",
+        "countySlug": "derebucak"
+      },
+      {
+        "countyName": "Doğanhisar",
+        "countySlug": "doganhisar"
+      },
+      {
+        "countyName": "Emirgazi",
+        "countySlug": "emirgazi"
+      },
+      {
+        "countyName": "Ereğli",
+        "countySlug": "eregli"
+      },
+      {
+        "countyName": "Güneysınır",
+        "countySlug": "guneysinir"
+      },
+      {
+        "countyName": "Hadim",
+        "countySlug": "hadim"
+      },
+      {
+        "countyName": "Halkapınar",
+        "countySlug": "halkapinar"
+      },
+      {
+        "countyName": "Hüyük",
+        "countySlug": "huyuk"
+      },
+      {
+        "countyName": "Ilgın",
+        "countySlug": "ilgin"
+      },
+      {
+        "countyName": "Kadınhanı",
+        "countySlug": "kadinhani"
+      },
+      {
+        "countyName": "Karapınar",
+        "countySlug": "karapinar"
+      },
+      {
+        "countyName": "Karatay",
+        "countySlug": "karatay"
+      },
+      {
+        "countyName": "Kulu",
+        "countySlug": "kulu"
+      },
+      {
+        "countyName": "Meram",
+        "countySlug": "meram"
+      },
+      {
+        "countyName": "Sarayönü",
+        "countySlug": "sarayonu"
+      },
+      {
+        "countyName": "Selçuklu",
+        "countySlug": "selcuklu"
+      },
+      {
+        "countyName": "Seydişehir",
+        "countySlug": "seydisehir"
+      },
+      {
+        "countyName": "Taşkent",
+        "countySlug": "taskent"
+      },
+      {
+        "countyName": "Tuzlukçu",
+        "countySlug": "tuzlukcu"
+      },
+      {
+        "countyName": "Yalıhüyük",
+        "countySlug": "yalihuyuk"
+      },
+      {
+        "countyName": "Yunak",
+        "countySlug": "yunak"
+      }
+    ]
+  },
+  {
+    "cityName": "Kütahya",
+    "citySlug": "kutahya",
+    "counties": [
+      {
+        "countyName": "Altıntaş",
+        "countySlug": "altintas"
+      },
+      {
+        "countyName": "Aslanapa",
+        "countySlug": "aslanapa"
+      },
+      {
+        "countyName": "Çavdarhisar",
+        "countySlug": "cavdarhisar"
+      },
+      {
+        "countyName": "Domaniç",
+        "countySlug": "domanic"
+      },
+      {
+        "countyName": "Dumlupınar",
+        "countySlug": "dumlupinar"
+      },
+      {
+        "countyName": "Emet",
+        "countySlug": "emet"
+      },
+      {
+        "countyName": "Gediz",
+        "countySlug": "gediz"
+      },
+      {
+        "countyName": "Hisarcık",
+        "countySlug": "hisarcik"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Pazarlar",
+        "countySlug": "pazarlar"
+      },
+      {
+        "countyName": "Simav",
+        "countySlug": "simav"
+      },
+      {
+        "countyName": "Şaphane",
+        "countySlug": "saphane"
+      },
+      {
+        "countyName": "Tavşanlı",
+        "countySlug": "tavsanli"
+      }
+    ]
+  },
+  {
+    "cityName": "Malatya",
+    "citySlug": "malatya",
+    "counties": [
+      {
+        "countyName": "Akçadağ",
+        "countySlug": "akcadag"
+      },
+      {
+        "countyName": "Arapgir",
+        "countySlug": "arapgir"
+      },
+      {
+        "countyName": "Arguvan",
+        "countySlug": "arguvan"
+      },
+      {
+        "countyName": "Battalgazi",
+        "countySlug": "battalgazi"
+      },
+      {
+        "countyName": "Darende",
+        "countySlug": "darende"
+      },
+      {
+        "countyName": "Doğanşehir",
+        "countySlug": "dogansehir"
+      },
+      {
+        "countyName": "Doğanyol",
+        "countySlug": "doganyol"
+      },
+      {
+        "countyName": "Hekimhan",
+        "countySlug": "hekimhan"
+      },
+      {
+        "countyName": "Kale",
+        "countySlug": "kale"
+      },
+      {
+        "countyName": "Kuluncak",
+        "countySlug": "kuluncak"
+      },
+      {
+        "countyName": "Pütürge",
+        "countySlug": "puturge"
+      },
+      {
+        "countyName": "Yazıhan",
+        "countySlug": "yazihan"
+      },
+      {
+        "countyName": "Yeşilyurt",
+        "countySlug": "yesilyurt"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "Merkez"
+      }
+    ]
+  },
+  {
+    "cityName": "Manisa",
+    "citySlug": "manisa",
+    "counties": [
+      {
+        "countyName": "Ahmetli",
+        "countySlug": "ahmetli"
+      },
+      {
+        "countyName": "Akhisar",
+        "countySlug": "akhisar"
+      },
+      {
+        "countyName": "Alaşehir",
+        "countySlug": "alasehir"
+      },
+      {
+        "countyName": "Demirci",
+        "countySlug": "demirci"
+      },
+      {
+        "countyName": "Gölmarmara",
+        "countySlug": "golmarmara"
+      },
+      {
+        "countyName": "Gördes",
+        "countySlug": "gordes"
+      },
+      {
+        "countyName": "Kırkağaç",
+        "countySlug": "kirkagac"
+      },
+      {
+        "countyName": "Köprübaşı",
+        "countySlug": "koprubasi"
+      },
+      {
+        "countyName": "Kula",
+        "countySlug": "kula"
+      },
+      {
+        "countyName": "Salihli",
+        "countySlug": "salihli"
+      },
+      {
+        "countyName": "Sarıgöl",
+        "countySlug": "sarigol"
+      },
+      {
+        "countyName": "Saruhanlı",
+        "countySlug": "saruhanli"
+      },
+      {
+        "countyName": "Selendi",
+        "countySlug": "selendi"
+      },
+      {
+        "countyName": "Soma",
+        "countySlug": "soma"
+      },
+      {
+        "countyName": "Şehzadeler",
+        "countySlug": "sehzadeler"
+      },
+      {
+        "countyName": "Turgutlu",
+        "countySlug": "turgutlu"
+      },
+      {
+        "countyName": "Yunusemre",
+        "countySlug": "yunusemre"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      }
+    ]
+  },
+  {
+    "cityName": "Mardin",
+    "citySlug": "mardin",
+    "counties": [
+      {
+        "countyName": "Artuklu",
+        "countySlug": "artuklu"
+      },
+      {
+        "countyName": "Dargeçit",
+        "countySlug": "dargecit"
+      },
+      {
+        "countyName": "Derik",
+        "countySlug": "derik"
+      },
+      {
+        "countyName": "Kızıltepe",
+        "countySlug": "kiziltepe"
+      },
+      {
+        "countyName": "Mazıdağı",
+        "countySlug": "mazidagi"
+      },
+      {
+        "countyName": "Midyat",
+        "countySlug": "midyat"
+      },
+      {
+        "countyName": "Nusaybin",
+        "countySlug": "nusaybin"
+      },
+      {
+        "countyName": "Ömerli",
+        "countySlug": "omerli"
+      },
+      {
+        "countyName": "Savur",
+        "countySlug": "savur"
+      },
+      {
+        "countyName": "Yeşilli",
+        "countySlug": "yesilli"
+      }
+    ]
+  },
+  {
+    "cityName": "Mersin",
+    "citySlug": "mersin",
+    "counties": [
+      {
+        "countyName": "Akdeniz",
+        "countySlug": "akdeniz"
+      },
+      {
+        "countyName": "Anamur",
+        "countySlug": "anamur"
+      },
+      {
+        "countyName": "Aydıncık",
+        "countySlug": "aydincik"
+      },
+      {
+        "countyName": "Bozyazı",
+        "countySlug": "bozyazi"
+      },
+      {
+        "countyName": "Çamlıyayla",
+        "countySlug": "camliyayla"
+      },
+      {
+        "countyName": "Erdemli",
+        "countySlug": "erdemli"
+      },
+      {
+        "countyName": "Gülnar",
+        "countySlug": "gulnar"
+      },
+      {
+        "countyName": "Mezitli",
+        "countySlug": "mezitli"
+      },
+      {
+        "countyName": "Mut",
+        "countySlug": "mut"
+      },
+      {
+        "countyName": "Silifke",
+        "countySlug": "silifke"
+      },
+      {
+        "countyName": "Tarsus",
+        "countySlug": "tarsus"
+      },
+      {
+        "countyName": "Toroslar",
+        "countySlug": "toroslar"
+      },
+      {
+        "countyName": "Yenişehir",
+        "countySlug": "yenisehir"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      }
+    ]
+  },
+  {
+    "cityName": "Muğla",
+    "citySlug": "mugla",
+    "counties": [
+      {
+        "countyName": "Bodrum",
+        "countySlug": "bodrum"
+      },
+      {
+        "countyName": "Dalaman",
+        "countySlug": "dalaman"
+      },
+      {
+        "countyName": "Datça",
+        "countySlug": "datca"
+      },
+      {
+        "countyName": "Fethiye",
+        "countySlug": "fethiye"
+      },
+      {
+        "countyName": "Kavaklıdere",
+        "countySlug": "kavaklidere"
+      },
+      {
+        "countyName": "Köyceğiz",
+        "countySlug": "koycegiz"
+      },
+      {
+        "countyName": "Marmaris",
+        "countySlug": "marmaris"
+      },
+      {
+        "countyName": "Menteşe",
+        "countySlug": "mentese"
+      },
+      {
+        "countyName": "Milas",
+        "countySlug": "milas"
+      },
+      {
+        "countyName": "Ortaca",
+        "countySlug": "ortaca"
+      },
+      {
+        "countyName": "Seydikemer",
+        "countySlug": "seydikemer"
+      },
+      {
+        "countyName": "Ula",
+        "countySlug": "ula"
+      },
+      {
+        "countyName": "Yatağan",
+        "countySlug": "yatagan"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      }
+    ]
+  },
+  {
+    "cityName": "Muş",
+    "citySlug": "mus",
+    "counties": [
+      {
+        "countyName": "Bulanık",
+        "countySlug": "bulanik"
+      },
+      {
+        "countyName": "Hasköy",
+        "countySlug": "haskoy"
+      },
+      {
+        "countyName": "Korkut",
+        "countySlug": "korkut"
+      },
+      {
+        "countyName": "Malazgirt",
+        "countySlug": "malazgirt"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Varto",
+        "countySlug": "varto"
+      }
+    ]
+  },
+  {
+    "cityName": "Nevşehir",
+    "citySlug": "nevsehir",
+    "counties": [
+      {
+        "countyName": "Acıgöl",
+        "countySlug": "acigol"
+      },
+      {
+        "countyName": "Avanos",
+        "countySlug": "avanos"
+      },
+      {
+        "countyName": "Derinkuyu",
+        "countySlug": "derinkuyu"
+      },
+      {
+        "countyName": "Gülşehir",
+        "countySlug": "gulsehir"
+      },
+      {
+        "countyName": "Hacıbektaş",
+        "countySlug": "hacibektas"
+      },
+      {
+        "countyName": "Kozaklı",
+        "countySlug": "kozakli"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Ürgüp",
+        "countySlug": "urgup"
+      }
+    ]
+  },
+  {
+    "cityName": "Niğde",
+    "citySlug": "nigde",
+    "counties": [
+      {
+        "countyName": "Altunhisar",
+        "countySlug": "altunhisar"
+      },
+      {
+        "countyName": "Bor",
+        "countySlug": "bor"
+      },
+      {
+        "countyName": "Çamardı",
+        "countySlug": "camardi"
+      },
+      {
+        "countyName": "Çiftlik",
+        "countySlug": "ciftlik"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Ulukışla",
+        "countySlug": "ulukisla"
+      }
+    ]
+  },
+  {
+    "cityName": "Ordu",
+    "citySlug": "ordu",
+    "counties": [
+      {
+        "countyName": "Akkuş",
+        "countySlug": "akkus"
+      },
+      {
+        "countyName": "Altınordu",
+        "countySlug": "altinordu"
+      },
+      {
+        "countyName": "Aybastı",
+        "countySlug": "aybasti"
+      },
+      {
+        "countyName": "Çamaş",
+        "countySlug": "camas"
+      },
+      {
+        "countyName": "Çatalpınar",
+        "countySlug": "catalpinar"
+      },
+      {
+        "countyName": "Çaybaşı",
+        "countySlug": "caybasi"
+      },
+      {
+        "countyName": "Fatsa",
+        "countySlug": "fatsa"
+      },
+      {
+        "countyName": "Gölköy",
+        "countySlug": "golkoy"
+      },
+      {
+        "countyName": "Gülyalı",
+        "countySlug": "gulyali"
+      },
+      {
+        "countyName": "Gürgentepe",
+        "countySlug": "gurgentepe"
+      },
+      {
+        "countyName": "İkizce",
+        "countySlug": "ikizce"
+      },
+      {
+        "countyName": "Kabadüz",
+        "countySlug": "kabaduz"
+      },
+      {
+        "countyName": "Kabataş",
+        "countySlug": "kabatas"
+      },
+      {
+        "countyName": "Korgan",
+        "countySlug": "korgan"
+      },
+      {
+        "countyName": "Kumru",
+        "countySlug": "kumru"
+      },
+      {
+        "countyName": "Mesudiye",
+        "countySlug": "mesudiye"
+      },
+      {
+        "countyName": "Perşembe",
+        "countySlug": "persembe"
+      },
+      {
+        "countyName": "Ulubey",
+        "countySlug": "ulubey"
+      },
+      {
+        "countyName": "Ünye",
+        "countySlug": "unye"
+      }
+    ]
+  },
+  {
+    "cityName": "Osmaniye",
+    "citySlug": "osmaniye",
+    "counties": [
+      {
+        "countyName": "Bahçe",
+        "countySlug": "bahce"
+      },
+      {
+        "countyName": "Düziçi",
+        "countySlug": "duzici"
+      },
+      {
+        "countyName": "Hasanbeyli",
+        "countySlug": "hasanbeyli"
+      },
+      {
+        "countyName": "Kadirli",
+        "countySlug": "kadirli"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Sumbas",
+        "countySlug": "sumbas"
+      },
+      {
+        "countyName": "Toprakkale",
+        "countySlug": "toprakkale"
+      }
+    ]
+  },
+  {
+    "cityName": "Rize",
+    "citySlug": "rize",
+    "counties": [
+      {
+        "countyName": "Ardeşen",
+        "countySlug": "ardesen"
+      },
+      {
+        "countyName": "Çamlıhemşin",
+        "countySlug": "camlihemsin"
+      },
+      {
+        "countyName": "Çayeli",
+        "countySlug": "cayeli"
+      },
+      {
+        "countyName": "Derepazarı",
+        "countySlug": "derepazari"
+      },
+      {
+        "countyName": "Fındıklı",
+        "countySlug": "findikli"
+      },
+      {
+        "countyName": "Güneysu",
+        "countySlug": "guneysu"
+      },
+      {
+        "countyName": "Hemşin",
+        "countySlug": "hemsin"
+      },
+      {
+        "countyName": "İkizdere",
+        "countySlug": "ikizdere"
+      },
+      {
+        "countyName": "İyidere",
+        "countySlug": "iyidere"
+      },
+      {
+        "countyName": "Kalkandere",
+        "countySlug": "kalkandere"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Pazar",
+        "countySlug": "pazar"
+      }
+    ]
+  },
+  {
+    "cityName": "Sakarya",
+    "citySlug": "sakarya",
+    "counties": [
+      {
+        "countyName": "Adapazarı",
+        "countySlug": "adapazari"
+      },
+      {
+        "countyName": "Akyazı",
+        "countySlug": "akyazi"
+      },
+      {
+        "countyName": "Arifiye",
+        "countySlug": "arifiye"
+      },
+      {
+        "countyName": "Erenler",
+        "countySlug": "erenler"
+      },
+      {
+        "countyName": "Ferizli",
+        "countySlug": "ferizli"
+      },
+      {
+        "countyName": "Geyve",
+        "countySlug": "geyve"
+      },
+      {
+        "countyName": "Hendek",
+        "countySlug": "hendek"
+      },
+      {
+        "countyName": "Karapürçek",
+        "countySlug": "karapurcek"
+      },
+      {
+        "countyName": "Karasu",
+        "countySlug": "karasu"
+      },
+      {
+        "countyName": "Kaynarca",
+        "countySlug": "kaynarca"
+      },
+      {
+        "countyName": "Kocaali",
+        "countySlug": "kocaali"
+      },
+      {
+        "countyName": "Pamukova",
+        "countySlug": "pamukova"
+      },
+      {
+        "countyName": "Sapanca",
+        "countySlug": "sapanca"
+      },
+      {
+        "countyName": "Serdivan",
+        "countySlug": "serdivan"
+      },
+      {
+        "countyName": "Söğütlü",
+        "countySlug": "sogutlu"
+      },
+      {
+        "countyName": "Taraklı",
+        "countySlug": "tarakli"
+      }
+    ]
+  },
+  {
+    "cityName": "Samsun",
+    "citySlug": "samsun",
+    "counties": [
+      {
+        "countyName": "19 Mayıs",
+        "countySlug": "19-mayis"
+      },
+      {
+        "countyName": "Alaçam",
+        "countySlug": "alacam"
+      },
+      {
+        "countyName": "Atakum",
+        "countySlug": "atakum"
+      },
+      {
+        "countyName": "Ayvacık",
+        "countySlug": "ayvacik"
+      },
+      {
+        "countyName": "Bafra",
+        "countySlug": "bafra"
+      },
+      {
+        "countyName": "Canik",
+        "countySlug": "canik"
+      },
+      {
+        "countyName": "Çarşamba",
+        "countySlug": "carsamba"
+      },
+      {
+        "countyName": "Havza",
+        "countySlug": "havza"
+      },
+      {
+        "countyName": "İlkadım",
+        "countySlug": "ilkadim"
+      },
+      {
+        "countyName": "Kavak",
+        "countySlug": "kavak"
+      },
+      {
+        "countyName": "Ladik",
+        "countySlug": "ladik"
+      },
+      {
+        "countyName": "Salıpazarı",
+        "countySlug": "salipazari"
+      },
+      {
+        "countyName": "Tekkeköy",
+        "countySlug": "tekkekoy"
+      },
+      {
+        "countyName": "Terme",
+        "countySlug": "terme"
+      },
+      {
+        "countyName": "Vezirköprü",
+        "countySlug": "vezirkopru"
+      },
+      {
+        "countyName": "Yakakent",
+        "countySlug": "yakakent"
+      },
+      {
+        "countyName": "Asarcık",
+        "countySlug": "asarcik"
+      }
+    ]
+  },
+  {
+    "cityName": "Siirt",
+    "citySlug": "siirt",
+    "counties": [
+      {
+        "countyName": "Baykan",
+        "countySlug": "baykan"
+      },
+      {
+        "countyName": "Eruh",
+        "countySlug": "eruh"
+      },
+      {
+        "countyName": "Kurtalan",
+        "countySlug": "kurtalan"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Pervari",
+        "countySlug": "pervari"
+      },
+      {
+        "countyName": "Şirvan",
+        "countySlug": "sirvan"
+      },
+      {
+        "countyName": "Tillo",
+        "countySlug": "tillo"
+      }
+    ]
+  },
+  {
+    "cityName": "Sinop",
+    "citySlug": "sinop",
+    "counties": [
+      {
+        "countyName": "Ayancık",
+        "countySlug": "ayancik"
+      },
+      {
+        "countyName": "Boyabat",
+        "countySlug": "boyabat"
+      },
+      {
+        "countyName": "Dikmen",
+        "countySlug": "dikmen"
+      },
+      {
+        "countyName": "Durağan",
+        "countySlug": "duragan"
+      },
+      {
+        "countyName": "Erfelek",
+        "countySlug": "erfelek"
+      },
+      {
+        "countyName": "Gerze",
+        "countySlug": "gerze"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Saraydüzü",
+        "countySlug": "sarayduzu"
+      },
+      {
+        "countyName": "Türkeli",
+        "countySlug": "turkeli"
+      }
+    ]
+  },
+  {
+    "cityName": "Sivas",
+    "citySlug": "sivas",
+    "counties": [
+      {
+        "countyName": "Akıncılar",
+        "countySlug": "akincilar"
+      },
+      {
+        "countyName": "Altınyayla",
+        "countySlug": "altinyayla"
+      },
+      {
+        "countyName": "Divriği",
+        "countySlug": "divrigi"
+      },
+      {
+        "countyName": "Doğanşar",
+        "countySlug": "dogansar"
+      },
+      {
+        "countyName": "Gemerek",
+        "countySlug": "gemerek"
+      },
+      {
+        "countyName": "Gölova",
+        "countySlug": "golova"
+      },
+      {
+        "countyName": "Gürün",
+        "countySlug": "gurun"
+      },
+      {
+        "countyName": "Hafik",
+        "countySlug": "hafik"
+      },
+      {
+        "countyName": "İmranlı",
+        "countySlug": "imranli"
+      },
+      {
+        "countyName": "Kangal",
+        "countySlug": "kangal"
+      },
+      {
+        "countyName": "Koyulhisar",
+        "countySlug": "koyulhisar"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Suşehri",
+        "countySlug": "susehri"
+      },
+      {
+        "countyName": "Şarkışla",
+        "countySlug": "sarkisla"
+      },
+      {
+        "countyName": "Ulaş",
+        "countySlug": "ulas"
+      },
+      {
+        "countyName": "Yıldızeli",
+        "countySlug": "yildizeli"
+      },
+      {
+        "countyName": "Zara",
+        "countySlug": "zara"
+      }
+    ]
+  },
+  {
+    "cityName": "Şanlıurfa",
+    "citySlug": "sanliurfa",
+    "counties": [
+      {
+        "countyName": "Akçakale",
+        "countySlug": "akcakale"
+      },
+      {
+        "countyName": "Birecik",
+        "countySlug": "birecik"
+      },
+      {
+        "countyName": "Bozova",
+        "countySlug": "bozova"
+      },
+      {
+        "countyName": "Ceylanpınar",
+        "countySlug": "ceylanpinar"
+      },
+      {
+        "countyName": "Eyyübiye",
+        "countySlug": "eyyubiye"
+      },
+      {
+        "countyName": "Halfeti",
+        "countySlug": "halfeti"
+      },
+      {
+        "countyName": "Haliliye",
+        "countySlug": "haliliye"
+      },
+      {
+        "countyName": "Harran",
+        "countySlug": "harran"
+      },
+      {
+        "countyName": "Hilvan",
+        "countySlug": "hilvan"
+      },
+      {
+        "countyName": "Karaköprü",
+        "countySlug": "karakopru"
+      },
+      {
+        "countyName": "Siverek",
+        "countySlug": "siverek"
+      },
+      {
+        "countyName": "Suruç",
+        "countySlug": "suruc"
+      },
+      {
+        "countyName": "Viranşehir",
+        "countySlug": "viransehir"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      }
+    ]
+  },
+  {
+    "cityName": "Şırnak",
+    "citySlug": "sirnak",
+    "counties": [
+      {
+        "countyName": "Beytüşşebap",
+        "countySlug": "beytussebap"
+      },
+      {
+        "countyName": "Cizre",
+        "countySlug": "cizre"
+      },
+      {
+        "countyName": "Güçlükonak",
+        "countySlug": "guclukonak"
+      },
+      {
+        "countyName": "İdil",
+        "countySlug": "idil"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Silopi",
+        "countySlug": "silopi"
+      },
+      {
+        "countyName": "Uludere",
+        "countySlug": "uludere"
+      }
+    ]
+  },
+  {
+    "cityName": "Tekirdağ",
+    "citySlug": "tekirdag",
+    "counties": [
+      {
+        "countyName": "Çerkezköy",
+        "countySlug": "cerkezkoy"
+      },
+      {
+        "countyName": "Çorlu",
+        "countySlug": "corlu"
+      },
+      {
+        "countyName": "Ergene",
+        "countySlug": "ergene"
+      },
+      {
+        "countyName": "Hayrabolu",
+        "countySlug": "hayrabolu"
+      },
+      {
+        "countyName": "Kapaklı",
+        "countySlug": "kapakli"
+      },
+      {
+        "countyName": "Malkara",
+        "countySlug": "malkara"
+      },
+      {
+        "countyName": "Marmaraereğlisi",
+        "countySlug": "marmaraereglisi"
+      },
+      {
+        "countyName": "Muratlı",
+        "countySlug": "muratli"
+      },
+      {
+        "countyName": "Saray",
+        "countySlug": "saray"
+      },
+      {
+        "countyName": "Süleymanpaşa",
+        "countySlug": "suleymanpasa"
+      },
+      {
+        "countyName": "Şarköy",
+        "countySlug": "sarkoy"
+      }
+    ]
+  },
+  {
+    "cityName": "Tokat",
+    "citySlug": "tokat",
+    "counties": [
+      {
+        "countyName": "Almus",
+        "countySlug": "almus"
+      },
+      {
+        "countyName": "Artova",
+        "countySlug": "artova"
+      },
+      {
+        "countyName": "Başçiftlik",
+        "countySlug": "basciftlik"
+      },
+      {
+        "countyName": "Erbaa",
+        "countySlug": "erbaa"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Niksar",
+        "countySlug": "niksar"
+      },
+      {
+        "countyName": "Pazar",
+        "countySlug": "pazar"
+      },
+      {
+        "countyName": "Reşadiye",
+        "countySlug": "resadiye"
+      },
+      {
+        "countyName": "Sulusaray",
+        "countySlug": "sulusaray"
+      },
+      {
+        "countyName": "Turhal",
+        "countySlug": "turhal"
+      },
+      {
+        "countyName": "Yeşilyurt",
+        "countySlug": "yesilyurt"
+      },
+      {
+        "countyName": "Zile",
+        "countySlug": "zile"
+      }
+    ]
+  },
+  {
+    "cityName": "Trabzon",
+    "citySlug": "trabzon",
+    "counties": [
+      {
+        "countyName": "Akçaabat",
+        "countySlug": "akcaabat"
+      },
+      {
+        "countyName": "Araklı",
+        "countySlug": "arakli"
+      },
+      {
+        "countyName": "Arsin",
+        "countySlug": "arsin"
+      },
+      {
+        "countyName": "Beşikdüzü",
+        "countySlug": "besikduzu"
+      },
+      {
+        "countyName": "Çarşıbaşı",
+        "countySlug": "carsibasi"
+      },
+      {
+        "countyName": "Çaykara",
+        "countySlug": "caykara"
+      },
+      {
+        "countyName": "Dernekpazarı",
+        "countySlug": "dernekpazari"
+      },
+      {
+        "countyName": "Düzköy",
+        "countySlug": "duzkoy"
+      },
+      {
+        "countyName": "Hayrat",
+        "countySlug": "hayrat"
+      },
+      {
+        "countyName": "Köprübaşı",
+        "countySlug": "koprubasi"
+      },
+      {
+        "countyName": "Maçka",
+        "countySlug": "macka"
+      },
+      {
+        "countyName": "Of",
+        "countySlug": "of"
+      },
+      {
+        "countyName": "Ortahisar",
+        "countySlug": "ortahisar"
+      },
+      {
+        "countyName": "Sürmene",
+        "countySlug": "surmene"
+      },
+      {
+        "countyName": "Şalpazarı",
+        "countySlug": "salpazari"
+      },
+      {
+        "countyName": "Tonya",
+        "countySlug": "tonya"
+      },
+      {
+        "countyName": "Vakfıkebir",
+        "countySlug": "vakfikebir"
+      },
+      {
+        "countyName": "Yomra",
+        "countySlug": "yomra"
+      }
+    ]
+  },
+  {
+    "cityName": "Tunceli",
+    "citySlug": "tunceli",
+    "counties": [
+      {
+        "countyName": "Çemişgezek",
+        "countySlug": "cemisgezek"
+      },
+      {
+        "countyName": "Hozat",
+        "countySlug": "hozat"
+      },
+      {
+        "countyName": "Mazgirt",
+        "countySlug": "mazgirt"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Nazımiye",
+        "countySlug": "nazimiye"
+      },
+      {
+        "countyName": "Ovacık",
+        "countySlug": "ovacik"
+      },
+      {
+        "countyName": "Pertek",
+        "countySlug": "pertek"
+      },
+      {
+        "countyName": "Pülümür",
+        "countySlug": "pulumur"
+      }
+    ]
+  },
+  {
+    "cityName": "Uşak",
+    "citySlug": "usak",
+    "counties": [
+      {
+        "countyName": "Banaz",
+        "countySlug": "banaz"
+      },
+      {
+        "countyName": "Eşme",
+        "countySlug": "esme"
+      },
+      {
+        "countyName": "Karahallı",
+        "countySlug": "karahalli"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Sivaslı",
+        "countySlug": "sivasli"
+      },
+      {
+        "countyName": "Ulubey",
+        "countySlug": "ulubey"
+      }
+    ]
+  },
+  {
+    "cityName": "Van",
+    "citySlug": "van",
+    "counties": [
+      {
+        "countyName": "Bahçesaray",
+        "countySlug": "bahcesaray"
+      },
+      {
+        "countyName": "Başkale",
+        "countySlug": "baskale"
+      },
+      {
+        "countyName": "Çaldıran",
+        "countySlug": "caldiran"
+      },
+      {
+        "countyName": "Çatak",
+        "countySlug": "catak"
+      },
+      {
+        "countyName": "Edremit",
+        "countySlug": "edremit"
+      },
+      {
+        "countyName": "Erciş",
+        "countySlug": "ercis"
+      },
+      {
+        "countyName": "Gevaş",
+        "countySlug": "gevas"
+      },
+      {
+        "countyName": "Gürpınar",
+        "countySlug": "gurpinar"
+      },
+      {
+        "countyName": "İpekyolu",
+        "countySlug": "ipekyolu"
+      },
+      {
+        "countyName": "Muradiye",
+        "countySlug": "muradiye"
+      },
+      {
+        "countyName": "Özalp",
+        "countySlug": "ozalp"
+      },
+      {
+        "countyName": "Saray",
+        "countySlug": "saray"
+      },
+      {
+        "countyName": "Tuşba",
+        "countySlug": "tusba"
+      }
+    ]
+  },
+  {
+    "cityName": "Yalova",
+    "citySlug": "yalova",
+    "counties": [
+      {
+        "countyName": "Altınova",
+        "countySlug": "altinova"
+      },
+      {
+        "countyName": "Armutlu",
+        "countySlug": "armutlu"
+      },
+      {
+        "countyName": "Çınarcık",
+        "countySlug": "cinarcik"
+      },
+      {
+        "countyName": "Çiftlikköy",
+        "countySlug": "ciftlikkoy"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Termal",
+        "countySlug": "termal"
+      }
+    ]
+  },
+  {
+    "cityName": "Yozgat",
+    "citySlug": "yozgat",
+    "counties": [
+      {
+        "countyName": "Akdağmadeni",
+        "countySlug": "akdagmadeni"
+      },
+      {
+        "countyName": "Aydıncık",
+        "countySlug": "aydincik"
+      },
+      {
+        "countyName": "Boğazlıyan",
+        "countySlug": "bogazliyan"
+      },
+      {
+        "countyName": "Çandır",
+        "countySlug": "candir"
+      },
+      {
+        "countyName": "Çayıralan",
+        "countySlug": "cayiralan"
+      },
+      {
+        "countyName": "Çekerek",
+        "countySlug": "cekerek"
+      },
+      {
+        "countyName": "Kadışehri",
+        "countySlug": "kadisehri"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      },
+      {
+        "countyName": "Saraykent",
+        "countySlug": "saraykent"
+      },
+      {
+        "countyName": "Sarıkaya",
+        "countySlug": "sarikaya"
+      },
+      {
+        "countyName": "Sorgun",
+        "countySlug": "sorgun"
+      },
+      {
+        "countyName": "Şefaatli",
+        "countySlug": "sefaatli"
+      },
+      {
+        "countyName": "Yenifakılı",
+        "countySlug": "yenifakili"
+      },
+      {
+        "countyName": "Yerköy",
+        "countySlug": "yerkoy"
+      }
+    ]
+  },
+  {
+    "cityName": "Zonguldak",
+    "citySlug": "zonguldak",
+    "counties": [
+      {
+        "countyName": "Alaplı",
+        "countySlug": "alapli"
+      },
+      {
+        "countyName": "Çaycuma",
+        "countySlug": "caycuma"
+      },
+      {
+        "countyName": "Devrek",
+        "countySlug": "devrek"
+      },
+      {
+        "countyName": "Ereğli",
+        "countySlug": "eregli"
+      },
+      {
+        "countyName": "Gökçebey",
+        "countySlug": "gokcebey"
+      },
+      {
+        "countyName": "Kilimli",
+        "countySlug": "kilimli"
+      },
+      {
+        "countyName": "Kozlu",
+        "countySlug": "kozlu"
+      },
+      {
+        "countyName": "Merkez",
+        "countySlug": "merkez"
+      }
+    ]
+  },
+  {
+    "cityName": "Kıbrıs KKTC",
+    "citySlug": "kibris",
+    "counties": [
+      {
+        "countyName": "Alt Mesarya",
+        "countySlug": "alt-mesarya"
+      },
+      {
+        "countyName": "Gazimağusa",
+        "countySlug": "gazimagusa"
+      },
+      {
+        "countyName": "Girne",
+        "countySlug": "girne"
+      },
+      {
+        "countyName": "Güzelyurt",
+        "countySlug": "guzelyurt"
+      },
+      {
+        "countyName": "İskele",
+        "countySlug": "iskele"
+      },
+      {
+        "countyName": "Lefke",
+        "countySlug": "lefke"
+      },
+      {
+        "countyName": "Lefkoşa",
+        "countySlug": "lefkosa"
+      }
+    ]
+  }
+]
