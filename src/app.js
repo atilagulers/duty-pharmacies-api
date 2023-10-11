@@ -6,7 +6,6 @@ import helmet from 'helmet';
 import cors from 'cors';
 
 import connectDB from './db/connect.js';
-import {updatePharmacies} from './utils/scheduler.js';
 
 import errorHandlerMiddleware from './middleware/errorHandler.js';
 import notFoundMiddleware from './middleware/notFound.js';
@@ -23,16 +22,6 @@ import pharmaciesRouter from './routes/pharmacies.js';
 
 // routes
 app.use('/api/v1/pharmacies', pharmaciesRouter);
-
-app.post('/api/v1/update', async (req, res) => {
-  try {
-    const pharmacies = await updatePharmacies();
-    res.status(200).json({msg: 'pharmacies updated', pharmacies});
-  } catch (error) {
-    console.error(error);
-    res.status(500).send('An error occurred while updating pharmacies');
-  }
-});
 
 app.get('/api/v1', (req, res) => {
   res.send('Welcome !');
